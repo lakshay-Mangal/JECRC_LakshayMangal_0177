@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p id="output"></p>
+  <script>
+    var name = "Alice";
+    var name = "Bob";  //no error
+    console.log(name); //bob
+
+    //display on page
+    document.getElementById("output").textContent=name;
+
+    console.log("\n ======= FUNCTION SCOPE start=======");
+
+    function testVar(){
+      var name = "charlie"; //this is different function scope
+      console.log(name);
+      console.log("\n ======= FUNCTION SCOPE ends =======");
+    }
+
+    testVar();
+      console.log(name);  //still bob, because the function 'name'
+    
+
+      console.log("\n ======PRIMITIVE DATA TYPES ======");
+      let name2 = "David";
+      let age = 22;
+      let isStudent = false;
+      let salary;
+      let bonus = null;
+      let bigNumber = 9007199254740991;  //Big int
+      console.log(typeof name2);//string
+      console.log(typeof age);//number
+      console.log(typeof isStudent);//boolean
+      console.log(typeof salary);//undefined
+      console.log(typeof bonus);//object (null is of type "object") in js
+      console.log(typeof bigNumber);//bigint ie number
+      
+      console.log("\n ====== Non-PRIMITIVE DATA TYPES ======");
+      let person  = {name : "EVE", age: 26}; //object
+      let numbers = [1,2,3,4,5]; //array
+      let today = new Date(); //date object
+      function greet(){
+        return "Welcome!" ;
+      }//function
+      console.log(typeof greet);//function
+      console.log(typeof person);//object
+      console.log(typeof numbers);//object(arrays are a type of object)
+      console.log(typeof today);//object
+
+</script>
+  
+</body>
+</html>

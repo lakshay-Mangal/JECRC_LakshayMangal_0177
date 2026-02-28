@@ -1,0 +1,14 @@
+D:\Corporate Training\JECRC\Training\csharp\Day4\Task1 enhancement\VirtualUsingTask1\VirtualUsingTask1\bin\Debug\net10.0\VirtualUsingTask1.exe
+D:\Corporate Training\JECRC\Training\csharp\Day4\Task1 enhancement\VirtualUsingTask1\VirtualUsingTask1\bin\Debug\net10.0\VirtualUsingTask1.deps.json
+D:\Corporate Training\JECRC\Training\csharp\Day4\Task1 enhancement\VirtualUsingTask1\VirtualUsingTask1\bin\Debug\net10.0\VirtualUsingTask1.runtimeconfig.json
+D:\Corporate Training\JECRC\Training\csharp\Day4\Task1 enhancement\VirtualUsingTask1\VirtualUsingTask1\bin\Debug\net10.0\VirtualUsingTask1.dll
+D:\Corporate Training\JECRC\Training\csharp\Day4\Task1 enhancement\VirtualUsingTask1\VirtualUsingTask1\bin\Debug\net10.0\VirtualUsingTask1.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day4\Task1 enhancement\VirtualUsingTask1\VirtualUsingTask1\obj\Debug\net10.0\VirtualUsingTask1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate Training\JECRC\Training\csharp\Day4\Task1 enhancement\VirtualUsingTask1\VirtualUsingTask1\obj\Debug\net10.0\VirtualUsingTask1.AssemblyInfoInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day4\Task1 enhancement\VirtualUsingTask1\VirtualUsingTask1\obj\Debug\net10.0\VirtualUsingTask1.AssemblyInfo.cs
+D:\Corporate Training\JECRC\Training\csharp\Day4\Task1 enhancement\VirtualUsingTask1\VirtualUsingTask1\obj\Debug\net10.0\VirtualUsingTask1.csproj.CoreCompileInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day4\Task1 enhancement\VirtualUsingTask1\VirtualUsingTask1\obj\Debug\net10.0\VirtualUsingTask1.dll
+D:\Corporate Training\JECRC\Training\csharp\Day4\Task1 enhancement\VirtualUsingTask1\VirtualUsingTask1\obj\Debug\net10.0\refint\VirtualUsingTask1.dll
+D:\Corporate Training\JECRC\Training\csharp\Day4\Task1 enhancement\VirtualUsingTask1\VirtualUsingTask1\obj\Debug\net10.0\VirtualUsingTask1.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day4\Task1 enhancement\VirtualUsingTask1\VirtualUsingTask1\obj\Debug\net10.0\VirtualUsingTask1.genruntimeconfig.cache
+D:\Corporate Training\JECRC\Training\csharp\Day4\Task1 enhancement\VirtualUsingTask1\VirtualUsingTask1\obj\Debug\net10.0\ref\VirtualUsingTask1.dll

@@ -1,0 +1,14 @@
+D:\Corporate Training\JECRC\Training\csharp\Day5\Collection 2\Collection_product demo\Collection_product demo\obj\Debug\net10.0\Collection_product demo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate Training\JECRC\Training\csharp\Day5\Collection 2\Collection_product demo\Collection_product demo\obj\Debug\net10.0\Collection_product demo.AssemblyInfoInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day5\Collection 2\Collection_product demo\Collection_product demo\obj\Debug\net10.0\Collection_product demo.AssemblyInfo.cs
+D:\Corporate Training\JECRC\Training\csharp\Day5\Collection 2\Collection_product demo\Collection_product demo\obj\Debug\net10.0\Collection_product demo.csproj.CoreCompileInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day5\Collection 2\Collection_product demo\Collection_product demo\bin\Debug\net10.0\Collection_product demo.exe
+D:\Corporate Training\JECRC\Training\csharp\Day5\Collection 2\Collection_product demo\Collection_product demo\bin\Debug\net10.0\Collection_product demo.deps.json
+D:\Corporate Training\JECRC\Training\csharp\Day5\Collection 2\Collection_product demo\Collection_product demo\bin\Debug\net10.0\Collection_product demo.runtimeconfig.json
+D:\Corporate Training\JECRC\Training\csharp\Day5\Collection 2\Collection_product demo\Collection_product demo\bin\Debug\net10.0\Collection_product demo.dll
+D:\Corporate Training\JECRC\Training\csharp\Day5\Collection 2\Collection_product demo\Collection_product demo\bin\Debug\net10.0\Collection_product demo.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day5\Collection 2\Collection_product demo\Collection_product demo\obj\Debug\net10.0\Collection_product demo.dll
+D:\Corporate Training\JECRC\Training\csharp\Day5\Collection 2\Collection_product demo\Collection_product demo\obj\Debug\net10.0\refint\Collection_product demo.dll
+D:\Corporate Training\JECRC\Training\csharp\Day5\Collection 2\Collection_product demo\Collection_product demo\obj\Debug\net10.0\Collection_product demo.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day5\Collection 2\Collection_product demo\Collection_product demo\obj\Debug\net10.0\Collection_product demo.genruntimeconfig.cache
+D:\Corporate Training\JECRC\Training\csharp\Day5\Collection 2\Collection_product demo\Collection_product demo\obj\Debug\net10.0\ref\Collection_product demo.dll

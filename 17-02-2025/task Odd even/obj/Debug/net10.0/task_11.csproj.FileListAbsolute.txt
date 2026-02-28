@@ -1,0 +1,14 @@
+D:\Corporate Training\JECRC\Training\csharp\Day2\task_11\bin\Debug\net10.0\task_11.exe
+D:\Corporate Training\JECRC\Training\csharp\Day2\task_11\bin\Debug\net10.0\task_11.deps.json
+D:\Corporate Training\JECRC\Training\csharp\Day2\task_11\bin\Debug\net10.0\task_11.runtimeconfig.json
+D:\Corporate Training\JECRC\Training\csharp\Day2\task_11\bin\Debug\net10.0\task_11.dll
+D:\Corporate Training\JECRC\Training\csharp\Day2\task_11\bin\Debug\net10.0\task_11.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day2\task_11\obj\Debug\net10.0\task_11.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate Training\JECRC\Training\csharp\Day2\task_11\obj\Debug\net10.0\task_11.AssemblyInfoInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day2\task_11\obj\Debug\net10.0\task_11.AssemblyInfo.cs
+D:\Corporate Training\JECRC\Training\csharp\Day2\task_11\obj\Debug\net10.0\task_11.csproj.CoreCompileInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day2\task_11\obj\Debug\net10.0\task_11.dll
+D:\Corporate Training\JECRC\Training\csharp\Day2\task_11\obj\Debug\net10.0\refint\task_11.dll
+D:\Corporate Training\JECRC\Training\csharp\Day2\task_11\obj\Debug\net10.0\task_11.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day2\task_11\obj\Debug\net10.0\task_11.genruntimeconfig.cache
+D:\Corporate Training\JECRC\Training\csharp\Day2\task_11\obj\Debug\net10.0\ref\task_11.dll

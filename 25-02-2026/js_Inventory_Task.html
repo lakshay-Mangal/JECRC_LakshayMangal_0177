@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inventory Management System</title>
+</head>
+<body>
+
+  <h2>Inventory Management System</h2>
+  <p id="output"></p>
+  
+  <script>
+
+    console.log(" ============= GLOBAL VARIABLES ============");
+
+    //Global Variables
+    const companyName = "Tech WareHouse";
+    let wareHouseLocation = "Bangalore";
+    var totalProducts = 0;
+
+    //Array Of Produts
+    let products = [
+      { id:1, name: "Laptop", price: 50000, quantity: 2 },
+      { id:2, name: "Mobile", price: 20000, quantity: 5 },
+      { id:3, name: "Tablet", price: 15000, quantity: 3 },
+    ];
+
+    totalProduct = products.length;
+    console.log("Company :", companyName);
+    console.log("Location :", wareHouseLocation);
+    console.log("Total Products :", totalProducts);
+
+    console.log("\n ============= DISPLAY PRODUCTS =============");
+
+    function displayProducts(){
+      for(let i=0; i<products.length; i++){
+        console.log(
+          `ID: ${products[i].id},
+          Name: ${products[i].name},
+          Price: ${products[i].price},
+          Quantity: ${products[i].quantity}`,
+        );
+      }
+    }
+
+    displayProducts();
+
+    console.log("\n===== CALCULATE INVENTORY VALUE =====");
+//function for calculateInventoryValues()
+function calculateInventoryValue() {
+    let totalValue = 0;
+
+    for (let i = 0; i < products.length; i++) {
+        totalValue += products[i].price * products[i].quantity;
+    }
+
+    return totalValue;
+}
+
+console.log("\n============ APPLY DISCOUNT ============");
+console.log("Total Inventory Value:", calculateInventoryValue());
+    function applyDiscount(discountPercent = 10){
+      for(let i=0; i<products.length; i++){
+        products[i].price = products[i].price - (products[i].price * discountPercent/100);
+      }
+          console.log(`Discount of ${discountPercent}% Applied`);
+    }
+
+    applyDiscount();
+    displayProducts();
+
+    console.log("\n===== BLOCK SCOPE DEMONSTRATION =====");
+
+// 4️⃣ Block Scope Demonstration
+
+{
+    let warehouseLocation = "Mumbai";   // Block scoped
+    var totalProducts = 100;            // Function scoped (overwrites)
+
+    console.log("Inside Block Location:", warehouseLocation);
+    console.log("Inside Block Total Products:", totalProducts);
+}
+
+// console.log("Outside Block Location:", warehouseLocation);     //wont run error is there
+console.log("Outside Block Total Products:", totalProducts);
+
+  </script>
+</body>
+</html>

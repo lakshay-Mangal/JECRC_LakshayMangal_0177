@@ -1,0 +1,14 @@
+D:\Corporate Training\JECRC\Training\Triange patterns\Triange patterns\bin\Debug\net10.0\Triange patterns.exe
+D:\Corporate Training\JECRC\Training\Triange patterns\Triange patterns\bin\Debug\net10.0\Triange patterns.deps.json
+D:\Corporate Training\JECRC\Training\Triange patterns\Triange patterns\bin\Debug\net10.0\Triange patterns.runtimeconfig.json
+D:\Corporate Training\JECRC\Training\Triange patterns\Triange patterns\bin\Debug\net10.0\Triange patterns.dll
+D:\Corporate Training\JECRC\Training\Triange patterns\Triange patterns\bin\Debug\net10.0\Triange patterns.pdb
+D:\Corporate Training\JECRC\Training\Triange patterns\Triange patterns\obj\Debug\net10.0\Triange patterns.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate Training\JECRC\Training\Triange patterns\Triange patterns\obj\Debug\net10.0\Triange patterns.AssemblyInfoInputs.cache
+D:\Corporate Training\JECRC\Training\Triange patterns\Triange patterns\obj\Debug\net10.0\Triange patterns.AssemblyInfo.cs
+D:\Corporate Training\JECRC\Training\Triange patterns\Triange patterns\obj\Debug\net10.0\Triange patterns.csproj.CoreCompileInputs.cache
+D:\Corporate Training\JECRC\Training\Triange patterns\Triange patterns\obj\Debug\net10.0\Triange patterns.dll
+D:\Corporate Training\JECRC\Training\Triange patterns\Triange patterns\obj\Debug\net10.0\refint\Triange patterns.dll
+D:\Corporate Training\JECRC\Training\Triange patterns\Triange patterns\obj\Debug\net10.0\Triange patterns.pdb
+D:\Corporate Training\JECRC\Training\Triange patterns\Triange patterns\obj\Debug\net10.0\Triange patterns.genruntimeconfig.cache
+D:\Corporate Training\JECRC\Training\Triange patterns\Triange patterns\obj\Debug\net10.0\ref\Triange patterns.dll

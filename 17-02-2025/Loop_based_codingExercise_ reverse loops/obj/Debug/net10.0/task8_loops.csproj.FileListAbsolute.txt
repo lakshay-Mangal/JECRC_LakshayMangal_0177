@@ -1,0 +1,14 @@
+D:\Corporate Training\JECRC\Training\csharp\Day2\task8_loops\bin\Debug\net10.0\task8_loops.exe
+D:\Corporate Training\JECRC\Training\csharp\Day2\task8_loops\bin\Debug\net10.0\task8_loops.deps.json
+D:\Corporate Training\JECRC\Training\csharp\Day2\task8_loops\bin\Debug\net10.0\task8_loops.runtimeconfig.json
+D:\Corporate Training\JECRC\Training\csharp\Day2\task8_loops\bin\Debug\net10.0\task8_loops.dll
+D:\Corporate Training\JECRC\Training\csharp\Day2\task8_loops\bin\Debug\net10.0\task8_loops.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day2\task8_loops\obj\Debug\net10.0\task8_loops.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate Training\JECRC\Training\csharp\Day2\task8_loops\obj\Debug\net10.0\task8_loops.AssemblyInfoInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day2\task8_loops\obj\Debug\net10.0\task8_loops.AssemblyInfo.cs
+D:\Corporate Training\JECRC\Training\csharp\Day2\task8_loops\obj\Debug\net10.0\task8_loops.csproj.CoreCompileInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day2\task8_loops\obj\Debug\net10.0\task8_loops.dll
+D:\Corporate Training\JECRC\Training\csharp\Day2\task8_loops\obj\Debug\net10.0\refint\task8_loops.dll
+D:\Corporate Training\JECRC\Training\csharp\Day2\task8_loops\obj\Debug\net10.0\task8_loops.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day2\task8_loops\obj\Debug\net10.0\task8_loops.genruntimeconfig.cache
+D:\Corporate Training\JECRC\Training\csharp\Day2\task8_loops\obj\Debug\net10.0\ref\task8_loops.dll

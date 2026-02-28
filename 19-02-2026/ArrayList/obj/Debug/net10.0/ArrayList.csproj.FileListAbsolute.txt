@@ -1,0 +1,14 @@
+D:\Corporate Training\JECRC\Training\csharp\Day4\Array List\ArrayList\ArrayList\obj\Debug\net10.0\ArrayList.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate Training\JECRC\Training\csharp\Day4\Array List\ArrayList\ArrayList\obj\Debug\net10.0\ArrayList.AssemblyInfoInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day4\Array List\ArrayList\ArrayList\obj\Debug\net10.0\ArrayList.AssemblyInfo.cs
+D:\Corporate Training\JECRC\Training\csharp\Day4\Array List\ArrayList\ArrayList\obj\Debug\net10.0\ArrayList.csproj.CoreCompileInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day4\Array List\ArrayList\ArrayList\bin\Debug\net10.0\ArrayList.exe
+D:\Corporate Training\JECRC\Training\csharp\Day4\Array List\ArrayList\ArrayList\bin\Debug\net10.0\ArrayList.deps.json
+D:\Corporate Training\JECRC\Training\csharp\Day4\Array List\ArrayList\ArrayList\bin\Debug\net10.0\ArrayList.runtimeconfig.json
+D:\Corporate Training\JECRC\Training\csharp\Day4\Array List\ArrayList\ArrayList\bin\Debug\net10.0\ArrayList.dll
+D:\Corporate Training\JECRC\Training\csharp\Day4\Array List\ArrayList\ArrayList\bin\Debug\net10.0\ArrayList.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day4\Array List\ArrayList\ArrayList\obj\Debug\net10.0\ArrayList.dll
+D:\Corporate Training\JECRC\Training\csharp\Day4\Array List\ArrayList\ArrayList\obj\Debug\net10.0\refint\ArrayList.dll
+D:\Corporate Training\JECRC\Training\csharp\Day4\Array List\ArrayList\ArrayList\obj\Debug\net10.0\ArrayList.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day4\Array List\ArrayList\ArrayList\obj\Debug\net10.0\ArrayList.genruntimeconfig.cache
+D:\Corporate Training\JECRC\Training\csharp\Day4\Array List\ArrayList\ArrayList\obj\Debug\net10.0\ref\ArrayList.dll

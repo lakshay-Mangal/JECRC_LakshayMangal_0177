@@ -1,0 +1,14 @@
+D:\Corporate Training\JECRC\Training\csharp\Day1\Array\obj\Debug\net10.0\Array.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate Training\JECRC\Training\csharp\Day1\Array\obj\Debug\net10.0\Array.AssemblyInfoInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day1\Array\obj\Debug\net10.0\Array.AssemblyInfo.cs
+D:\Corporate Training\JECRC\Training\csharp\Day1\Array\obj\Debug\net10.0\Array.csproj.CoreCompileInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day1\Array\bin\Debug\net10.0\Array.exe
+D:\Corporate Training\JECRC\Training\csharp\Day1\Array\bin\Debug\net10.0\Array.deps.json
+D:\Corporate Training\JECRC\Training\csharp\Day1\Array\bin\Debug\net10.0\Array.runtimeconfig.json
+D:\Corporate Training\JECRC\Training\csharp\Day1\Array\bin\Debug\net10.0\Array.dll
+D:\Corporate Training\JECRC\Training\csharp\Day1\Array\bin\Debug\net10.0\Array.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day1\Array\obj\Debug\net10.0\Array.dll
+D:\Corporate Training\JECRC\Training\csharp\Day1\Array\obj\Debug\net10.0\refint\Array.dll
+D:\Corporate Training\JECRC\Training\csharp\Day1\Array\obj\Debug\net10.0\Array.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day1\Array\obj\Debug\net10.0\Array.genruntimeconfig.cache
+D:\Corporate Training\JECRC\Training\csharp\Day1\Array\obj\Debug\net10.0\ref\Array.dll

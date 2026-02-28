@@ -1,0 +1,14 @@
+D:\Corporate Training\JECRC\Training\csharp\Day2\task7\bin\Debug\net10.0\task7.exe
+D:\Corporate Training\JECRC\Training\csharp\Day2\task7\bin\Debug\net10.0\task7.deps.json
+D:\Corporate Training\JECRC\Training\csharp\Day2\task7\bin\Debug\net10.0\task7.runtimeconfig.json
+D:\Corporate Training\JECRC\Training\csharp\Day2\task7\bin\Debug\net10.0\task7.dll
+D:\Corporate Training\JECRC\Training\csharp\Day2\task7\bin\Debug\net10.0\task7.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day2\task7\obj\Debug\net10.0\task7.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate Training\JECRC\Training\csharp\Day2\task7\obj\Debug\net10.0\task7.AssemblyInfoInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day2\task7\obj\Debug\net10.0\task7.AssemblyInfo.cs
+D:\Corporate Training\JECRC\Training\csharp\Day2\task7\obj\Debug\net10.0\task7.csproj.CoreCompileInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day2\task7\obj\Debug\net10.0\task7.dll
+D:\Corporate Training\JECRC\Training\csharp\Day2\task7\obj\Debug\net10.0\refint\task7.dll
+D:\Corporate Training\JECRC\Training\csharp\Day2\task7\obj\Debug\net10.0\task7.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day2\task7\obj\Debug\net10.0\task7.genruntimeconfig.cache
+D:\Corporate Training\JECRC\Training\csharp\Day2\task7\obj\Debug\net10.0\ref\task7.dll

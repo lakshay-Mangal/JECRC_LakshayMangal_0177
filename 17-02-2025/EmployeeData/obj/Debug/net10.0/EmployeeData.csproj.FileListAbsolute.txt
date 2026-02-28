@@ -1,0 +1,14 @@
+D:\Corporate Training\JECRC\Training\csharp\Day2\EmployeeData\bin\Debug\net10.0\EmployeeData.exe
+D:\Corporate Training\JECRC\Training\csharp\Day2\EmployeeData\bin\Debug\net10.0\EmployeeData.deps.json
+D:\Corporate Training\JECRC\Training\csharp\Day2\EmployeeData\bin\Debug\net10.0\EmployeeData.runtimeconfig.json
+D:\Corporate Training\JECRC\Training\csharp\Day2\EmployeeData\bin\Debug\net10.0\EmployeeData.dll
+D:\Corporate Training\JECRC\Training\csharp\Day2\EmployeeData\bin\Debug\net10.0\EmployeeData.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day2\EmployeeData\obj\Debug\net10.0\EmployeeData.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate Training\JECRC\Training\csharp\Day2\EmployeeData\obj\Debug\net10.0\EmployeeData.AssemblyInfoInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day2\EmployeeData\obj\Debug\net10.0\EmployeeData.AssemblyInfo.cs
+D:\Corporate Training\JECRC\Training\csharp\Day2\EmployeeData\obj\Debug\net10.0\EmployeeData.csproj.CoreCompileInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day2\EmployeeData\obj\Debug\net10.0\EmployeeData.dll
+D:\Corporate Training\JECRC\Training\csharp\Day2\EmployeeData\obj\Debug\net10.0\refint\EmployeeData.dll
+D:\Corporate Training\JECRC\Training\csharp\Day2\EmployeeData\obj\Debug\net10.0\EmployeeData.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day2\EmployeeData\obj\Debug\net10.0\EmployeeData.genruntimeconfig.cache
+D:\Corporate Training\JECRC\Training\csharp\Day2\EmployeeData\obj\Debug\net10.0\ref\EmployeeData.dll

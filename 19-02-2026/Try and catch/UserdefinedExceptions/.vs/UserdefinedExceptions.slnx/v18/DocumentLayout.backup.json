@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Corporate Training\\JECRC\\Training\\csharp\\Day4\\Try and catch\\UserdefinedExceptions\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3746D240-26DE-4E48-A148-96A4B8CA683A}|UserdefinedExceptions\\UserdefinedExceptions.csproj|d:\\corporate training\\jecrc\\training\\csharp\\day4\\try and catch\\userdefinedexceptions\\userdefinedexceptions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3746D240-26DE-4E48-A148-96A4B8CA683A}|UserdefinedExceptions\\UserdefinedExceptions.csproj|solutionrelative:userdefinedexceptions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC\\Training\\csharp\\Day4\\Try and catch\\UserdefinedExceptions\\UserdefinedExceptions\\Program.cs",
+              "RelativeDocumentMoniker": "UserdefinedExceptions\\Program.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC\\Training\\csharp\\Day4\\Try and catch\\UserdefinedExceptions\\UserdefinedExceptions\\Program.cs*",
+              "RelativeToolTip": "UserdefinedExceptions\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T11:01:17.667Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+D:\Corporate Training\JECRC\Training\csharp\Day4\task1\TaskAbstractInterfaces\TaskAbstractInterfaces\bin\Debug\net10.0\TaskAbstractInterfaces.exe
+D:\Corporate Training\JECRC\Training\csharp\Day4\task1\TaskAbstractInterfaces\TaskAbstractInterfaces\bin\Debug\net10.0\TaskAbstractInterfaces.deps.json
+D:\Corporate Training\JECRC\Training\csharp\Day4\task1\TaskAbstractInterfaces\TaskAbstractInterfaces\bin\Debug\net10.0\TaskAbstractInterfaces.runtimeconfig.json
+D:\Corporate Training\JECRC\Training\csharp\Day4\task1\TaskAbstractInterfaces\TaskAbstractInterfaces\bin\Debug\net10.0\TaskAbstractInterfaces.dll
+D:\Corporate Training\JECRC\Training\csharp\Day4\task1\TaskAbstractInterfaces\TaskAbstractInterfaces\bin\Debug\net10.0\TaskAbstractInterfaces.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day4\task1\TaskAbstractInterfaces\TaskAbstractInterfaces\obj\Debug\net10.0\TaskAbstractInterfaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate Training\JECRC\Training\csharp\Day4\task1\TaskAbstractInterfaces\TaskAbstractInterfaces\obj\Debug\net10.0\TaskAbstractInterfaces.AssemblyInfoInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day4\task1\TaskAbstractInterfaces\TaskAbstractInterfaces\obj\Debug\net10.0\TaskAbstractInterfaces.AssemblyInfo.cs
+D:\Corporate Training\JECRC\Training\csharp\Day4\task1\TaskAbstractInterfaces\TaskAbstractInterfaces\obj\Debug\net10.0\TaskAbstractInterfaces.csproj.CoreCompileInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day4\task1\TaskAbstractInterfaces\TaskAbstractInterfaces\obj\Debug\net10.0\TaskAbstractInterfaces.dll
+D:\Corporate Training\JECRC\Training\csharp\Day4\task1\TaskAbstractInterfaces\TaskAbstractInterfaces\obj\Debug\net10.0\refint\TaskAbstractInterfaces.dll
+D:\Corporate Training\JECRC\Training\csharp\Day4\task1\TaskAbstractInterfaces\TaskAbstractInterfaces\obj\Debug\net10.0\TaskAbstractInterfaces.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day4\task1\TaskAbstractInterfaces\TaskAbstractInterfaces\obj\Debug\net10.0\TaskAbstractInterfaces.genruntimeconfig.cache
+D:\Corporate Training\JECRC\Training\csharp\Day4\task1\TaskAbstractInterfaces\TaskAbstractInterfaces\obj\Debug\net10.0\ref\TaskAbstractInterfaces.dll

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local and Global Variables Declaration </title>
+</head>
+
+<body>
+  <h1>Using local , Global variables</h1>
+  <!-- <p id="outputgreeting"> This para is for the <br> output greeting </p> -->
+  <p id="Display_details"></p>
+  <script>
+  // let is block-scoped
+  //const is Block-scoped and cannot be reassigned
+  //var is function scoped and can be reasssing in the function
+
+  // var greeting = "Welcome to Javascript!";
+  // console.log(greeting);
+  // let name = " Jon Snow";
+  // console.log("Welcome, " + name + "!");
+  // document.getElementById("outputgreeting").innerHTML = greeting + " " + name;
+
+  var company = "TCSS";
+  let Companylocation="Bangalore";
+  const year=2026;
+
+/*
+  {  var company = "TCS";
+  let location="Bangalore";
+  const year=2026;
+
+  {
+  var company = "CAPGEMINI";
+  let location = "Bangalore";
+  const year = 2026;
+
+  console.log("Company : " + company);
+  console.log("Location : " + location);
+  console.log("Year : " + year);
+
+  document.getElementById("Display_details").innerHTML =
+    "Company : " + company +
+    ", Location : " + location +
+    ", Year : " + year + "!";
+}
+}
+*/
+
+if(true){
+  var company="cap";
+  let location="Mumbai";
+  const year = 2024;
+  console.log(`Inside block : + ${company} , ${Companylocation} , ${year}`);
+}
+
+console.log(`outside block : ${company}, ${Companylocation}, ${year}`);
+  </script>
+</body>
+</html>

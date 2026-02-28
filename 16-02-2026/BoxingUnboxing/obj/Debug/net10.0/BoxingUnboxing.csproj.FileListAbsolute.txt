@@ -1,0 +1,14 @@
+D:\Corporate Training\JECRC\Training\csharp\Day1\BoxingUnboxing\bin\Debug\net10.0\BoxingUnboxing.exe
+D:\Corporate Training\JECRC\Training\csharp\Day1\BoxingUnboxing\bin\Debug\net10.0\BoxingUnboxing.deps.json
+D:\Corporate Training\JECRC\Training\csharp\Day1\BoxingUnboxing\bin\Debug\net10.0\BoxingUnboxing.runtimeconfig.json
+D:\Corporate Training\JECRC\Training\csharp\Day1\BoxingUnboxing\bin\Debug\net10.0\BoxingUnboxing.dll
+D:\Corporate Training\JECRC\Training\csharp\Day1\BoxingUnboxing\bin\Debug\net10.0\BoxingUnboxing.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day1\BoxingUnboxing\obj\Debug\net10.0\BoxingUnboxing.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate Training\JECRC\Training\csharp\Day1\BoxingUnboxing\obj\Debug\net10.0\BoxingUnboxing.AssemblyInfoInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day1\BoxingUnboxing\obj\Debug\net10.0\BoxingUnboxing.AssemblyInfo.cs
+D:\Corporate Training\JECRC\Training\csharp\Day1\BoxingUnboxing\obj\Debug\net10.0\BoxingUnboxing.csproj.CoreCompileInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day1\BoxingUnboxing\obj\Debug\net10.0\BoxingUnboxing.dll
+D:\Corporate Training\JECRC\Training\csharp\Day1\BoxingUnboxing\obj\Debug\net10.0\refint\BoxingUnboxing.dll
+D:\Corporate Training\JECRC\Training\csharp\Day1\BoxingUnboxing\obj\Debug\net10.0\BoxingUnboxing.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day1\BoxingUnboxing\obj\Debug\net10.0\BoxingUnboxing.genruntimeconfig.cache
+D:\Corporate Training\JECRC\Training\csharp\Day1\BoxingUnboxing\obj\Debug\net10.0\ref\BoxingUnboxing.dll

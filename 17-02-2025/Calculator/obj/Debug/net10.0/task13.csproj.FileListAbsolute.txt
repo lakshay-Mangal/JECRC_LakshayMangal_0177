@@ -1,0 +1,14 @@
+D:\Corporate Training\JECRC\Training\csharp\Day2\task13\obj\Debug\net10.0\task13.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate Training\JECRC\Training\csharp\Day2\task13\obj\Debug\net10.0\task13.AssemblyInfoInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day2\task13\obj\Debug\net10.0\task13.AssemblyInfo.cs
+D:\Corporate Training\JECRC\Training\csharp\Day2\task13\obj\Debug\net10.0\task13.csproj.CoreCompileInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day2\task13\bin\Debug\net10.0\task13.exe
+D:\Corporate Training\JECRC\Training\csharp\Day2\task13\bin\Debug\net10.0\task13.deps.json
+D:\Corporate Training\JECRC\Training\csharp\Day2\task13\bin\Debug\net10.0\task13.runtimeconfig.json
+D:\Corporate Training\JECRC\Training\csharp\Day2\task13\bin\Debug\net10.0\task13.dll
+D:\Corporate Training\JECRC\Training\csharp\Day2\task13\bin\Debug\net10.0\task13.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day2\task13\obj\Debug\net10.0\task13.dll
+D:\Corporate Training\JECRC\Training\csharp\Day2\task13\obj\Debug\net10.0\refint\task13.dll
+D:\Corporate Training\JECRC\Training\csharp\Day2\task13\obj\Debug\net10.0\task13.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day2\task13\obj\Debug\net10.0\task13.genruntimeconfig.cache
+D:\Corporate Training\JECRC\Training\csharp\Day2\task13\obj\Debug\net10.0\ref\task13.dll

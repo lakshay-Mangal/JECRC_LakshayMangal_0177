@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "constructor2notstatic/1.0.0": {
+        "runtime": {
+          "constructor2notstatic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "constructor2notstatic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

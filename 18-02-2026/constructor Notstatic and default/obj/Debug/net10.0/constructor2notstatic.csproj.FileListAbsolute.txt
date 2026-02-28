@@ -1,0 +1,14 @@
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor2notstatic\bin\Debug\net10.0\constructor2notstatic.exe
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor2notstatic\bin\Debug\net10.0\constructor2notstatic.deps.json
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor2notstatic\bin\Debug\net10.0\constructor2notstatic.runtimeconfig.json
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor2notstatic\bin\Debug\net10.0\constructor2notstatic.dll
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor2notstatic\bin\Debug\net10.0\constructor2notstatic.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor2notstatic\obj\Debug\net10.0\constructor2notstatic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor2notstatic\obj\Debug\net10.0\constructor2notstatic.AssemblyInfoInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor2notstatic\obj\Debug\net10.0\constructor2notstatic.AssemblyInfo.cs
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor2notstatic\obj\Debug\net10.0\constructor2notstatic.csproj.CoreCompileInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor2notstatic\obj\Debug\net10.0\constructor2notstatic.dll
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor2notstatic\obj\Debug\net10.0\refint\constructor2notstatic.dll
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor2notstatic\obj\Debug\net10.0\constructor2notstatic.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor2notstatic\obj\Debug\net10.0\constructor2notstatic.genruntimeconfig.cache
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor2notstatic\obj\Debug\net10.0\ref\constructor2notstatic.dll

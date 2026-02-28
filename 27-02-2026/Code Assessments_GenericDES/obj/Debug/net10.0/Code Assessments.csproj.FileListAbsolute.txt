@@ -1,0 +1,14 @@
+C:\Users\91982\OneDrive\Desktop\JECRC_KushagraSaxena_0177\Code Assessments\bin\Debug\net10.0\Code Assessments.exe
+C:\Users\91982\OneDrive\Desktop\JECRC_KushagraSaxena_0177\Code Assessments\bin\Debug\net10.0\Code Assessments.deps.json
+C:\Users\91982\OneDrive\Desktop\JECRC_KushagraSaxena_0177\Code Assessments\bin\Debug\net10.0\Code Assessments.runtimeconfig.json
+C:\Users\91982\OneDrive\Desktop\JECRC_KushagraSaxena_0177\Code Assessments\bin\Debug\net10.0\Code Assessments.dll
+C:\Users\91982\OneDrive\Desktop\JECRC_KushagraSaxena_0177\Code Assessments\bin\Debug\net10.0\Code Assessments.pdb
+C:\Users\91982\OneDrive\Desktop\JECRC_KushagraSaxena_0177\Code Assessments\obj\Debug\net10.0\Code Assessments.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91982\OneDrive\Desktop\JECRC_KushagraSaxena_0177\Code Assessments\obj\Debug\net10.0\Code Assessments.AssemblyInfoInputs.cache
+C:\Users\91982\OneDrive\Desktop\JECRC_KushagraSaxena_0177\Code Assessments\obj\Debug\net10.0\Code Assessments.AssemblyInfo.cs
+C:\Users\91982\OneDrive\Desktop\JECRC_KushagraSaxena_0177\Code Assessments\obj\Debug\net10.0\Code Assessments.csproj.CoreCompileInputs.cache
+C:\Users\91982\OneDrive\Desktop\JECRC_KushagraSaxena_0177\Code Assessments\obj\Debug\net10.0\Code Assessments.dll
+C:\Users\91982\OneDrive\Desktop\JECRC_KushagraSaxena_0177\Code Assessments\obj\Debug\net10.0\refint\Code Assessments.dll
+C:\Users\91982\OneDrive\Desktop\JECRC_KushagraSaxena_0177\Code Assessments\obj\Debug\net10.0\Code Assessments.pdb
+C:\Users\91982\OneDrive\Desktop\JECRC_KushagraSaxena_0177\Code Assessments\obj\Debug\net10.0\Code Assessments.genruntimeconfig.cache
+C:\Users\91982\OneDrive\Desktop\JECRC_KushagraSaxena_0177\Code Assessments\obj\Debug\net10.0\ref\Code Assessments.dll

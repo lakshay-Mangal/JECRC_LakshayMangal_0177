@@ -1,0 +1,14 @@
+D:\Corporate Training\JECRC\Training\csharp\Day3\Access specifiers\Inheritances\inheritance1Demo\InheritanceDemo\InheritanceDemo\obj\Debug\net10.0\InheritanceDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate Training\JECRC\Training\csharp\Day3\Access specifiers\Inheritances\inheritance1Demo\InheritanceDemo\InheritanceDemo\obj\Debug\net10.0\InheritanceDemo.AssemblyInfoInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day3\Access specifiers\Inheritances\inheritance1Demo\InheritanceDemo\InheritanceDemo\obj\Debug\net10.0\InheritanceDemo.AssemblyInfo.cs
+D:\Corporate Training\JECRC\Training\csharp\Day3\Access specifiers\Inheritances\inheritance1Demo\InheritanceDemo\InheritanceDemo\obj\Debug\net10.0\InheritanceDemo.csproj.CoreCompileInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day3\Access specifiers\Inheritances\inheritance1Demo\InheritanceDemo\InheritanceDemo\bin\Debug\net10.0\InheritanceDemo.exe
+D:\Corporate Training\JECRC\Training\csharp\Day3\Access specifiers\Inheritances\inheritance1Demo\InheritanceDemo\InheritanceDemo\bin\Debug\net10.0\InheritanceDemo.deps.json
+D:\Corporate Training\JECRC\Training\csharp\Day3\Access specifiers\Inheritances\inheritance1Demo\InheritanceDemo\InheritanceDemo\bin\Debug\net10.0\InheritanceDemo.runtimeconfig.json
+D:\Corporate Training\JECRC\Training\csharp\Day3\Access specifiers\Inheritances\inheritance1Demo\InheritanceDemo\InheritanceDemo\bin\Debug\net10.0\InheritanceDemo.dll
+D:\Corporate Training\JECRC\Training\csharp\Day3\Access specifiers\Inheritances\inheritance1Demo\InheritanceDemo\InheritanceDemo\bin\Debug\net10.0\InheritanceDemo.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day3\Access specifiers\Inheritances\inheritance1Demo\InheritanceDemo\InheritanceDemo\obj\Debug\net10.0\InheritanceDemo.dll
+D:\Corporate Training\JECRC\Training\csharp\Day3\Access specifiers\Inheritances\inheritance1Demo\InheritanceDemo\InheritanceDemo\obj\Debug\net10.0\refint\InheritanceDemo.dll
+D:\Corporate Training\JECRC\Training\csharp\Day3\Access specifiers\Inheritances\inheritance1Demo\InheritanceDemo\InheritanceDemo\obj\Debug\net10.0\InheritanceDemo.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day3\Access specifiers\Inheritances\inheritance1Demo\InheritanceDemo\InheritanceDemo\obj\Debug\net10.0\InheritanceDemo.genruntimeconfig.cache
+D:\Corporate Training\JECRC\Training\csharp\Day3\Access specifiers\Inheritances\inheritance1Demo\InheritanceDemo\InheritanceDemo\obj\Debug\net10.0\ref\InheritanceDemo.dll

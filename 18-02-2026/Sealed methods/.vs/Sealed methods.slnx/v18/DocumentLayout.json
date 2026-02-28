@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Corporate Training\\JECRC\\Training\\csharp\\Day3\\Access specifiers\\Inheritances\\inheritance1Demo\\hybrid\\Hybrid working\\Polumorphism\\oveerhiding\\Sealed methods\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8836E156-4401-FC56-1ED3-8399F718CDD3}|Sealed methods\\Sealed methods.csproj|d:\\corporate training\\jecrc\\training\\csharp\\day3\\access specifiers\\inheritances\\inheritance1demo\\hybrid\\hybrid working\\polumorphism\\oveerhiding\\sealed methods\\sealed methods\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8836E156-4401-FC56-1ED3-8399F718CDD3}|Sealed methods\\Sealed methods.csproj|solutionrelative:sealed methods\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC\\Training\\csharp\\Day3\\Access specifiers\\Inheritances\\inheritance1Demo\\hybrid\\Hybrid working\\Polumorphism\\oveerhiding\\Sealed methods\\Sealed methods\\Program.cs",
+              "RelativeDocumentMoniker": "Sealed methods\\Program.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC\\Training\\csharp\\Day3\\Access specifiers\\Inheritances\\inheritance1Demo\\hybrid\\Hybrid working\\Polumorphism\\oveerhiding\\Sealed methods\\Sealed methods\\Program.cs",
+              "RelativeToolTip": "Sealed methods\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T09:50:14.483Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

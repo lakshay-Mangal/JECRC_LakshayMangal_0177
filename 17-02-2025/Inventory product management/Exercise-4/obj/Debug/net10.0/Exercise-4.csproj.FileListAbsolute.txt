@@ -1,0 +1,14 @@
+D:\Corporate Training\JECRC\Training\Exercise-4\Exercise-4\bin\Debug\net10.0\Exercise-4.exe
+D:\Corporate Training\JECRC\Training\Exercise-4\Exercise-4\bin\Debug\net10.0\Exercise-4.deps.json
+D:\Corporate Training\JECRC\Training\Exercise-4\Exercise-4\bin\Debug\net10.0\Exercise-4.runtimeconfig.json
+D:\Corporate Training\JECRC\Training\Exercise-4\Exercise-4\bin\Debug\net10.0\Exercise-4.dll
+D:\Corporate Training\JECRC\Training\Exercise-4\Exercise-4\bin\Debug\net10.0\Exercise-4.pdb
+D:\Corporate Training\JECRC\Training\Exercise-4\Exercise-4\obj\Debug\net10.0\Exercise-4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate Training\JECRC\Training\Exercise-4\Exercise-4\obj\Debug\net10.0\Exercise-4.AssemblyInfoInputs.cache
+D:\Corporate Training\JECRC\Training\Exercise-4\Exercise-4\obj\Debug\net10.0\Exercise-4.AssemblyInfo.cs
+D:\Corporate Training\JECRC\Training\Exercise-4\Exercise-4\obj\Debug\net10.0\Exercise-4.csproj.CoreCompileInputs.cache
+D:\Corporate Training\JECRC\Training\Exercise-4\Exercise-4\obj\Debug\net10.0\Exercise-4.dll
+D:\Corporate Training\JECRC\Training\Exercise-4\Exercise-4\obj\Debug\net10.0\refint\Exercise-4.dll
+D:\Corporate Training\JECRC\Training\Exercise-4\Exercise-4\obj\Debug\net10.0\Exercise-4.pdb
+D:\Corporate Training\JECRC\Training\Exercise-4\Exercise-4\obj\Debug\net10.0\Exercise-4.genruntimeconfig.cache
+D:\Corporate Training\JECRC\Training\Exercise-4\Exercise-4\obj\Debug\net10.0\ref\Exercise-4.dll

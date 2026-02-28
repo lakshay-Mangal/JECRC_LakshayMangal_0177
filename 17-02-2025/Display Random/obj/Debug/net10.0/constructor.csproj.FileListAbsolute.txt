@@ -1,0 +1,14 @@
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor\bin\Debug\net10.0\constructor.exe
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor\bin\Debug\net10.0\constructor.deps.json
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor\bin\Debug\net10.0\constructor.runtimeconfig.json
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor\bin\Debug\net10.0\constructor.dll
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor\bin\Debug\net10.0\constructor.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor\obj\Debug\net10.0\constructor.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor\obj\Debug\net10.0\constructor.AssemblyInfoInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor\obj\Debug\net10.0\constructor.AssemblyInfo.cs
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor\obj\Debug\net10.0\constructor.csproj.CoreCompileInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor\obj\Debug\net10.0\constructor.dll
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor\obj\Debug\net10.0\refint\constructor.dll
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor\obj\Debug\net10.0\constructor.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor\obj\Debug\net10.0\constructor.genruntimeconfig.cache
+D:\Corporate Training\JECRC\Training\csharp\Day2\constructor\obj\Debug\net10.0\ref\constructor.dll

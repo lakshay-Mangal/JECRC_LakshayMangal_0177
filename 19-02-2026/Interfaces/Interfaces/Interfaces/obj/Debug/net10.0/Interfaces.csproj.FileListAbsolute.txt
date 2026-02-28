@@ -1,0 +1,14 @@
+D:\Corporate Training\JECRC\Training\csharp\Day4\Interfaces\Interfaces\Interfaces\bin\Debug\net10.0\Interfaces.exe
+D:\Corporate Training\JECRC\Training\csharp\Day4\Interfaces\Interfaces\Interfaces\bin\Debug\net10.0\Interfaces.deps.json
+D:\Corporate Training\JECRC\Training\csharp\Day4\Interfaces\Interfaces\Interfaces\bin\Debug\net10.0\Interfaces.runtimeconfig.json
+D:\Corporate Training\JECRC\Training\csharp\Day4\Interfaces\Interfaces\Interfaces\bin\Debug\net10.0\Interfaces.dll
+D:\Corporate Training\JECRC\Training\csharp\Day4\Interfaces\Interfaces\Interfaces\bin\Debug\net10.0\Interfaces.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day4\Interfaces\Interfaces\Interfaces\obj\Debug\net10.0\Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate Training\JECRC\Training\csharp\Day4\Interfaces\Interfaces\Interfaces\obj\Debug\net10.0\Interfaces.AssemblyInfoInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day4\Interfaces\Interfaces\Interfaces\obj\Debug\net10.0\Interfaces.AssemblyInfo.cs
+D:\Corporate Training\JECRC\Training\csharp\Day4\Interfaces\Interfaces\Interfaces\obj\Debug\net10.0\Interfaces.csproj.CoreCompileInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day4\Interfaces\Interfaces\Interfaces\obj\Debug\net10.0\Interfaces.dll
+D:\Corporate Training\JECRC\Training\csharp\Day4\Interfaces\Interfaces\Interfaces\obj\Debug\net10.0\refint\Interfaces.dll
+D:\Corporate Training\JECRC\Training\csharp\Day4\Interfaces\Interfaces\Interfaces\obj\Debug\net10.0\Interfaces.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day4\Interfaces\Interfaces\Interfaces\obj\Debug\net10.0\Interfaces.genruntimeconfig.cache
+D:\Corporate Training\JECRC\Training\csharp\Day4\Interfaces\Interfaces\Interfaces\obj\Debug\net10.0\ref\Interfaces.dll

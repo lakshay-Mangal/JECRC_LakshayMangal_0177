@@ -1,0 +1,14 @@
+D:\Corporate Training\JECRC\Training\csharp\Day4\delegates\Delegates\Delegates\obj\Debug\net10.0\Delegates.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate Training\JECRC\Training\csharp\Day4\delegates\Delegates\Delegates\obj\Debug\net10.0\Delegates.AssemblyInfoInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day4\delegates\Delegates\Delegates\obj\Debug\net10.0\Delegates.AssemblyInfo.cs
+D:\Corporate Training\JECRC\Training\csharp\Day4\delegates\Delegates\Delegates\obj\Debug\net10.0\Delegates.csproj.CoreCompileInputs.cache
+D:\Corporate Training\JECRC\Training\csharp\Day4\delegates\Delegates\Delegates\bin\Debug\net10.0\Delegates.exe
+D:\Corporate Training\JECRC\Training\csharp\Day4\delegates\Delegates\Delegates\bin\Debug\net10.0\Delegates.deps.json
+D:\Corporate Training\JECRC\Training\csharp\Day4\delegates\Delegates\Delegates\bin\Debug\net10.0\Delegates.runtimeconfig.json
+D:\Corporate Training\JECRC\Training\csharp\Day4\delegates\Delegates\Delegates\bin\Debug\net10.0\Delegates.dll
+D:\Corporate Training\JECRC\Training\csharp\Day4\delegates\Delegates\Delegates\bin\Debug\net10.0\Delegates.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day4\delegates\Delegates\Delegates\obj\Debug\net10.0\Delegates.dll
+D:\Corporate Training\JECRC\Training\csharp\Day4\delegates\Delegates\Delegates\obj\Debug\net10.0\refint\Delegates.dll
+D:\Corporate Training\JECRC\Training\csharp\Day4\delegates\Delegates\Delegates\obj\Debug\net10.0\Delegates.pdb
+D:\Corporate Training\JECRC\Training\csharp\Day4\delegates\Delegates\Delegates\obj\Debug\net10.0\Delegates.genruntimeconfig.cache
+D:\Corporate Training\JECRC\Training\csharp\Day4\delegates\Delegates\Delegates\obj\Debug\net10.0\ref\Delegates.dll

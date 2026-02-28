@@ -1,0 +1,14 @@
+D:\dotNetProjects\Training\Day1\datetime\bin\Debug\net10.0\datetime.exe
+D:\dotNetProjects\Training\Day1\datetime\bin\Debug\net10.0\datetime.deps.json
+D:\dotNetProjects\Training\Day1\datetime\bin\Debug\net10.0\datetime.runtimeconfig.json
+D:\dotNetProjects\Training\Day1\datetime\bin\Debug\net10.0\datetime.dll
+D:\dotNetProjects\Training\Day1\datetime\bin\Debug\net10.0\datetime.pdb
+D:\dotNetProjects\Training\Day1\datetime\obj\Debug\net10.0\datetime.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotNetProjects\Training\Day1\datetime\obj\Debug\net10.0\datetime.AssemblyInfoInputs.cache
+D:\dotNetProjects\Training\Day1\datetime\obj\Debug\net10.0\datetime.AssemblyInfo.cs
+D:\dotNetProjects\Training\Day1\datetime\obj\Debug\net10.0\datetime.csproj.CoreCompileInputs.cache
+D:\dotNetProjects\Training\Day1\datetime\obj\Debug\net10.0\datetime.dll
+D:\dotNetProjects\Training\Day1\datetime\obj\Debug\net10.0\refint\datetime.dll
+D:\dotNetProjects\Training\Day1\datetime\obj\Debug\net10.0\datetime.pdb
+D:\dotNetProjects\Training\Day1\datetime\obj\Debug\net10.0\datetime.genruntimeconfig.cache
+D:\dotNetProjects\Training\Day1\datetime\obj\Debug\net10.0\ref\datetime.dll
