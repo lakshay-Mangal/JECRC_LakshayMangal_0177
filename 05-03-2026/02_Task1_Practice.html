@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>E-Commerce Add to Cart</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f5f5f5;
+            margin-top: 100px;
+        }
+
+        .product-card{
+            background: white;
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+        }
+
+        button{
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: #218838;
+        }
+
+        #msg{
+            margin-top: 15px;
+            font-weight: bold;
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="product-card">
+        <h2>Wireless Headphones</h2>
+        <p>Price: ₹1499</p>
+
+        <button class="addCart">Add to Cart</button>
+
+        <p class="msg"></p>
+    </div>
+
+    <div class="product-card">
+        <h2>Wired Headphones</h2>
+        <p>Price: ₹799</p>
+
+        <button class="addCart">Add to Cart</button>
+
+        <p class="msg"></p>
+    </div>
+     <div class="product-card">
+        <h2>Wireless Earbud</h2>
+        <p>Price: ₹2799</p>
+
+        <button class="addCart">Add to Cart</button>
+
+        <p class="msg"></p>
+    </div>
+    
+
+<script>
+
+// 1. Select all elements with the class "addCart"
+const cartButtons = document.querySelectorAll(".addCart");
+
+// 2. Loop through each button to attach the event listener
+cartButtons.forEach(button => {
+    button.addEventListener("click", function(event) {
+        
+        // Find the specific product card this button belongs to
+        const card = event.target.closest(".product-card");
+        
+        // Find the specific message paragraph inside THIS card
+        const messageBox = card.querySelector(".msg");
+        
+        // Get the product name dynamically for the console log
+        const productName = card.querySelector("h2").innerText;
+
+        // Log the correct item and display the success message
+        console.log(productName + " added to cart");
+        messageBox.innerHTML = "Item successfully added to cart";
+        
+    });
+});
+</script>
+
+</body>
+</html>

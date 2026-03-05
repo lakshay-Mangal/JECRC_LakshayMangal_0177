@@ -1,0 +1,15 @@
+C:\Users\Lakshay mangal\OneDrive\Desktop\JECRC_LakshayMangal_0177\28-02-2026\03_CodeAssessment_Student_EV_System\bin\Debug\net10.0\03_CodeAssessment_Student_EV_System.exe
+C:\Users\Lakshay mangal\OneDrive\Desktop\JECRC_LakshayMangal_0177\28-02-2026\03_CodeAssessment_Student_EV_System\bin\Debug\net10.0\03_CodeAssessment_Student_EV_System.deps.json
+C:\Users\Lakshay mangal\OneDrive\Desktop\JECRC_LakshayMangal_0177\28-02-2026\03_CodeAssessment_Student_EV_System\bin\Debug\net10.0\03_CodeAssessment_Student_EV_System.runtimeconfig.json
+C:\Users\Lakshay mangal\OneDrive\Desktop\JECRC_LakshayMangal_0177\28-02-2026\03_CodeAssessment_Student_EV_System\bin\Debug\net10.0\03_CodeAssessment_Student_EV_System.dll
+C:\Users\Lakshay mangal\OneDrive\Desktop\JECRC_LakshayMangal_0177\28-02-2026\03_CodeAssessment_Student_EV_System\bin\Debug\net10.0\03_CodeAssessment_Student_EV_System.pdb
+C:\Users\Lakshay mangal\OneDrive\Desktop\JECRC_LakshayMangal_0177\28-02-2026\03_CodeAssessment_Student_EV_System\obj\Debug\net10.0\03_CodeAssessment_Student_EV_System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lakshay mangal\OneDrive\Desktop\JECRC_LakshayMangal_0177\28-02-2026\03_CodeAssessment_Student_EV_System\obj\Debug\net10.0\03_CodeAssessment_Student_EV_System.AssemblyInfoInputs.cache
+C:\Users\Lakshay mangal\OneDrive\Desktop\JECRC_LakshayMangal_0177\28-02-2026\03_CodeAssessment_Student_EV_System\obj\Debug\net10.0\03_CodeAssessment_Student_EV_System.AssemblyInfo.cs
+C:\Users\Lakshay mangal\OneDrive\Desktop\JECRC_LakshayMangal_0177\28-02-2026\03_CodeAssessment_Student_EV_System\obj\Debug\net10.0\03_CodeAssessment_Student_EV_System.csproj.CoreCompileInputs.cache
+C:\Users\Lakshay mangal\OneDrive\Desktop\JECRC_LakshayMangal_0177\28-02-2026\03_CodeAssessment_Student_EV_System\obj\Debug\net10.0\03_CodeAssessment_Student_EV_System.sourcelink.json
+C:\Users\Lakshay mangal\OneDrive\Desktop\JECRC_LakshayMangal_0177\28-02-2026\03_CodeAssessment_Student_EV_System\obj\Debug\net10.0\03_CodeAssessment_Student_EV_System.dll
+C:\Users\Lakshay mangal\OneDrive\Desktop\JECRC_LakshayMangal_0177\28-02-2026\03_CodeAssessment_Student_EV_System\obj\Debug\net10.0\refint\03_CodeAssessment_Student_EV_System.dll
+C:\Users\Lakshay mangal\OneDrive\Desktop\JECRC_LakshayMangal_0177\28-02-2026\03_CodeAssessment_Student_EV_System\obj\Debug\net10.0\03_CodeAssessment_Student_EV_System.pdb
+C:\Users\Lakshay mangal\OneDrive\Desktop\JECRC_LakshayMangal_0177\28-02-2026\03_CodeAssessment_Student_EV_System\obj\Debug\net10.0\03_CodeAssessment_Student_EV_System.genruntimeconfig.cache
+C:\Users\Lakshay mangal\OneDrive\Desktop\JECRC_LakshayMangal_0177\28-02-2026\03_CodeAssessment_Student_EV_System\obj\Debug\net10.0\ref\03_CodeAssessment_Student_EV_System.dll
