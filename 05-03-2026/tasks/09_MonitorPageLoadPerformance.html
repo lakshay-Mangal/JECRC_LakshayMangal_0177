@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Monitor Page Load Performance</title>
+</head>
+
+<body>
+
+<h2>Page Load Performance Monitor</h2>
+<p>This page tracks how long it takes to load.</p>
+
+<script>
+
+// Simple logger
+const logger = {
+    log: function(level, message, data){
+        console.log(level + " - " + message, data);
+    }
+};
+
+const start = performance.now();
+
+window.onload = function(){
+
+    const end = performance.now();
+
+    const loadTime = end - start;
+
+    logger.log("INFO","Page Load Time:", loadTime + " ms");
+
+};
+
+</script>
+
+</body>
+</html>

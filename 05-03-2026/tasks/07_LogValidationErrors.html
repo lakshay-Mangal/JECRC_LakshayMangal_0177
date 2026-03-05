@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Log Form Validation Errors</title>
+</head>
+
+<body>
+
+<h2>Email Form</h2>
+
+<input id="email" placeholder="Enter Email">
+<button onclick="validateForm()">Submit</button>
+
+<script>
+
+// Simple logger
+const logger = {
+    log: function(level, message, data){
+        console.log(level + " - " + message + ":", data);
+    }
+};
+
+function validateForm(){
+
+    const email = document.getElementById("email").value;
+
+    if(!email.includes("@")){
+
+        logger.log("WARN","Invalid Email Entered",email);
+
+        alert("Invalid email");
+    }
+
+}
+
+</script>
+
+</body>
+</html>

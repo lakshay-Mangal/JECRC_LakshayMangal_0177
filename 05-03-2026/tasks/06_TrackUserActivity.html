@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Track User Login Activity</title>
+</head>
+
+<body>
+
+<h2>User Login</h2>
+
+<input id="username" placeholder="Enter Username">
+<button onclick="login()">Login</button>
+
+<script>
+const logger = {
+    log: function(level, message, data){
+        console.log(level + " - " + message, data);
+        fetch("https://jsonplaceholder.typicode.com/posts", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                level: level,
+                message: message,
+                data: data
+            })
+        }).catch(err => console.warn("Server logging simulated"));
+    }
+};
+
+function login(){
+
+    const user = document.getElementById("username").value;
+
+    logger.log("INFO", "User Login Attempt", {username: user});
+
+}
+
+</script>
+
+</body>
+</html>
