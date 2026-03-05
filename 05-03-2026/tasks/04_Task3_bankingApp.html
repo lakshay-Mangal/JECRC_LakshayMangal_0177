@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking App Portal</title>
+</head>
+<body align="center">
+    <h1> Banking App</h1>
+    <div > 
+        <p class="text"> Right Click has been disabled to prevent malicious activity</p>
+    </div>
+</body>
+<script>
+        document.addEventListener("contextmenu", function(e){
+
+e.preventDefault();
+
+console.warn("Right click disabled for security");
+
+});
+</script>
+</html>

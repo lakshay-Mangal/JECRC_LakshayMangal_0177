@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Customer Support Chat</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f6f9;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    text-align:center;
+}
+
+#chatIcon{
+    background:#007bff;
+    color:white;
+    padding:12px 20px;
+    border-radius:25px;
+    display:inline-block;
+    cursor:pointer;
+    font-size:18px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+}
+
+#chatIcon:hover{
+    background:#0056b3;
+}
+
+#info{
+    margin-top:15px;
+    font-size:14px;
+    color:#333;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div id="chatIcon">💬 Chat Support</div>
+
+<p id="info"></p>
+
+</div>
+
+<script>
+
+document.getElementById("chatIcon").addEventListener("mouseover", function(){
+
+    document.getElementById("info").innerText =
+    "Click here to talk with customer support";
+
+    console.log("Mouse hovered over chat icon");
+
+});
+
+</script>
+
+</body>
+</html>
