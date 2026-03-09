@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Character Counter</title>
+
+<style>
+body{
+    font-family:Arial;
+    margin:40px;
+}
+
+textarea{
+    width:300px;
+    height:120px;
+    padding:10px;
+    font-size:14px;
+}
+
+p{
+    margin-top:10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<h2>Live Character Counter</h2>
+
+<textarea id="message" placeholder="Enter Anything"></textarea>
+
+<p class="char">Characters: 0</p>
+<p class="num">Numbers: 0</p>
+
+<script>
+
+const textArea = document.querySelector('#message');
+const charCount = document.querySelector('.char');
+const numCount = document.querySelector('.num');
+
+textArea.addEventListener("keyup", () => {
+
+    const text = textArea.value;
+
+    const characters = text.length;
+
+    const numbers = (text.match(/[0-9]/g) || []).length;
+
+    charCount.textContent = "Characters: " + characters;
+    numCount.textContent = "Numbers: " + numbers;
+
+});
+
+</script>
+
+</body>
+</html>

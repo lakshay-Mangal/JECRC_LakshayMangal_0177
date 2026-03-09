@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mouse Log</title>
+
+<style>
+#message{
+    font-size:14px;
+    color:#555;
+    margin-top:10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<input type="text" placeholder="Enter your name"> <br>
+
+<input type="email" placeholder="Enter your email">
+<h3>Click on submit button</h3>
+<button class="btn">Submit</button>
+
+<p id="message"></p>
+
+<script>
+
+const button = document.querySelector('.btn');
+const message = document.querySelector('#message');
+
+button.addEventListener('mouseover', () => {
+    message.textContent = "You are about to submit";
+});
+
+button.addEventListener('click', () => {
+    alert("Submitted");
+});
+
+</script>
+
+</body>
+</html>
