@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave Management System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f4f7f6; padding-top: 50px; }
+        .hidden { display: none !important; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2 class="text-center mb-4">Leave Management System</h2>
+
+    <div id="authSection" class="card mx-auto" style="max-width: 400px;">
+        <div class="card-body">
+            <h5 class="card-title" id="authTitle">Login</h5>
+            <div class="mb-3">
+                <input type="text" id="username" class="form-control" placeholder="Username">
+            </div>
+            <div class="mb-3">
+                <input type="password" id="password" class="form-control" placeholder="Password">
+            </div>
+            <div class="mb-3" id="roleGroup" style="display: none;">
+                <select id="role" class="form-select">
+                    <option value="Employee">Employee</option>
+                    <option value="Admin">Admin</option>
+                </select>
+            </div>
+            <button class="btn btn-primary w-100" id="loginBtn" onclick="login()">Login</button>
+            <button class="btn btn-success w-100 hidden" id="registerBtn" onclick="register()">Register</button>
+            
+            <p class="text-center mt-3 mb-0">
+                <a href="#" id="toggleAuth" onclick="toggleAuthMode()">Need to register?</a>
+            </p>
+        </div>
+    </div>
+
+    <div id="dashboardSection" class="hidden">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h4 id="welcomeMessage">Welcome</h4>
+            <button class="btn btn-danger" onclick="logout()">Logout</button>
+        </div>
+
+        <div id="employeeView" class="hidden row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header bg-primary text-white">Apply for Leave</div>
+                    <div class="card-body">
+                        <input type="text" id="leaveType" class="form-control mb-2" placeholder="Leave Type (e.g., Sick)">
+                        <input type="date" id="startDate" class="form-control mb-2">
+                        <input type="date" id="endDate" class="form-control mb-2">
+                        <textarea id="reason" class="form-control mb-2" placeholder="Reason"></textarea>
+                        <button class="btn btn-primary w-100" onclick="applyLeave()">Submit Request</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">My Leaves</div>
+                    <ul class="list-group list-group-flush" id="myLeavesList"></ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="adminView" class="hidden card">
+            <div class="card-header bg-dark text-white">All Employee Leaves (Admin)</div>
+            <table class="table table-striped mb-0">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Type</th>
+                        <th>Dates</th>
+                        <th>Reason</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="allLeavesTableBody"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
