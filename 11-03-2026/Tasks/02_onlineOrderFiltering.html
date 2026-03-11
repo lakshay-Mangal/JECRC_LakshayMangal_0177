@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> Filter Online Order with premium prices</h2>
+    <p> ordersAmount => [800,1000,1200,1100,3000,1500,900] </p>
+    <button onclick="filter()">filter prices</button>
+    <p id="result"></p>
+    <script>
+         var ordersAmount = [800,1000,1200,1100,3000,1500,900];
+        function filter(){
+        var highOrdersAmount = ordersAmount.filter(order => order > 1000);
+            document.getElementById('result').innerHTML = "Filtered Price :"+highOrdersAmount;
+         };
+    </script>
+</body>
+</html>

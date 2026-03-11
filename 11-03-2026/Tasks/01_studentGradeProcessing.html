@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Map Example</title>
+</head>
+
+<body align="center">
+
+<h2>Student Grade Processing</h2>
+<p> Marks =>  [65,70,80,55,90];
+</p>
+<button onclick="processMarks()">Add 5 Marks</button>
+
+<p id="result"></p>
+
+<script>
+
+var marks = [65,70,80,55,90];
+
+function processMarks(){
+
+var updatedMarks = marks.map(m => m + 5);
+
+document.getElementById("result").innerHTML =
+"Original: " + marks + "<br>Updated: " + updatedMarks;
+
+}
+
+</script>
+
+</body>
+</html>
