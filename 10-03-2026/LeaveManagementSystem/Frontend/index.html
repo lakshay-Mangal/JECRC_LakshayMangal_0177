@@ -14,8 +14,8 @@
 
 <div class="container">
     <div class="d-flex justify-content-end mb-2 mt-2">
-    <button class="btn btn-outline-secondary btn-sm" id="darkModeToggle" onclick="toggleDarkMode()">🌙 Dark Mode</button>
-</div>
+        <button class="btn btn-outline-secondary btn-sm" id="darkModeToggle" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+    </div>
 
     <h2 class="text-center mb-4">Leave Management System</h2>
 
@@ -31,6 +31,7 @@
             <div class="mb-3" id="roleGroup" style="display: none;">
                 <select id="role" class="form-select">
                     <option value="Employee">Employee</option>
+                    <option value="Manager">Manager</option>
                     <option value="Admin">Admin</option>
                 </select>
             </div>
@@ -46,6 +47,7 @@
     <div id="dashboardSection" class="hidden">
         <div class="d-flex justify-content-between align-items-center mb-4">
             <h4 id="welcomeMessage">Welcome</h4>
+            <span id="roleBadge" class="badge bg-secondary fs-6"></span>
             <button class="btn btn-danger" onclick="logout()">Logout</button>
         </div>
 
@@ -70,20 +72,34 @@
             </div>
         </div>
 
-        <div id="adminView" class="hidden card">
-            <div class="card-header bg-dark text-white">All Employee Leaves (Admin)</div>
+        <div id="managerView" class="hidden card">
+            <div class="card-header bg-info text-dark">All Employee Leaves (Manager)</div>
             <table class="table table-striped mb-0">
                 <thead>
                     <tr>
                         <th>ID</th>
                         <th>Type</th>
                         <th>Dates</th>
-                        <th>Reason</th>
                         <th>Status</th>
                         <th>Action</th>
                     </tr>
                 </thead>
-                <tbody id="allLeavesTableBody"></tbody>
+                <tbody id="managerLeavesTableBody"></tbody>
+            </table>
+        </div>
+
+        <div id="adminView" class="hidden card">
+            <div class="card-header bg-dark text-white">Employee Management (Admin)</div>
+            <table class="table table-striped mb-0">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Username</th>
+                        <th>Role</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="adminEmployeesTableBody"></tbody>
             </table>
         </div>
     </div>

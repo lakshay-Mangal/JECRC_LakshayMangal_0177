@@ -29,10 +29,10 @@ namespace LeaveManagementAPI.Controllers
             }
 
             // 1. Define what roles are actually allowed
-            var allowedRoles = new List<string> { UserRoles.Admin, UserRoles.Employee };
-            
+            var allowedRoles = new List<string> { UserRoles.Admin, UserRoles.Manager, UserRoles.Employee };            
             // 2. Default to Employee if they didn't provide one
             var assignedRole = string.IsNullOrEmpty(model.Role) ? UserRoles.Employee : model.Role;
+            
 
             // 3. Reject the request if they typed a made-up role
             if (!allowedRoles.Contains(assignedRole))

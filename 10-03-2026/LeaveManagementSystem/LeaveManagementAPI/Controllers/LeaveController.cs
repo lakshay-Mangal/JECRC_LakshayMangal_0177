@@ -6,19 +6,20 @@ using System.Security.Claims;
 
 namespace LeaveManagementAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/leave")] // Changed to match your requested routes
     [ApiController]
     [Authorize]
-    public class LeaveRequestController : ControllerBase
+    public class LeaveController : ControllerBase
     {
         private readonly AppDbContext _context;
 
-        public LeaveRequestController(AppDbContext context)
+        public LeaveController(AppDbContext context)
         {
             _context = context;
         }
 
-        [HttpPost]
+        // Employee Routes ----------------------------------------------------
+
         [HttpPost]
         public IActionResult CreateLeaveRequest([FromBody] LeaveRequest request)
         {
@@ -27,14 +28,9 @@ namespace LeaveManagementAPI.Controllers
 
             int employeeId = int.Parse(userId);
 
-            // Safeguard 1: Ensure end date is not before start date
             if (request.EndDate.Date < request.StartDate.Date)
-            {
                 return BadRequest("End date cannot be before the start date.");
-            }
 
-            // Safeguard 2: Prevent overlapping leaves
-            // We ignore "Rejected" leaves because those days are technically free again
             bool isOverlapping = _context.LeaveRequests.Any(lr => 
                 lr.EmployeeId == employeeId && 
                 lr.Status != "Rejected" && 
@@ -43,11 +39,8 @@ namespace LeaveManagementAPI.Controllers
             );
 
             if (isOverlapping)
-            {
                 return BadRequest("You already have a pending or approved leave request during these dates.");
-            }
 
-            // If validations pass, save the request
             request.EmployeeId = employeeId;
             request.Status = "Pending";
 
@@ -67,16 +60,17 @@ namespace LeaveManagementAPI.Controllers
             return Ok(_context.LeaveRequests.Where(lr => lr.EmployeeId == employeeId).ToList());
         }
 
-        [HttpGet("all")]
-[Authorize(Roles = UserRoles.Admin)]
+        // Manager Routes -----------------------------------------------------
 
+        [HttpGet("all")]
+        [Authorize(Roles = UserRoles.Manager)] // Handed over to Manager
         public IActionResult GetAllLeaves()
         {
             return Ok(_context.LeaveRequests.ToList());
         }
 
         [HttpPut("approve/{id}")]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = UserRoles.Manager)] // Handed over to Manager
         public IActionResult ApproveLeave(int id)
         {
             var leave = _context.LeaveRequests.Find(id);
@@ -85,12 +79,11 @@ namespace LeaveManagementAPI.Controllers
             leave.Status = "Approved";
             _context.SaveChanges();
 
-            return Ok(new { Message = "Leave request approved." });
+            return Ok(new { Message = $"Leave request {id} approved." });
         }
 
-        // PUT: api/LeaveRequest/reject/5 (ONLY ADMINS can reject)
         [HttpPut("reject/{id}")]
-        [Authorize(Roles = UserRoles.Admin)]
+        [Authorize(Roles = UserRoles.Manager)] // Handed over to Manager
         public IActionResult RejectLeave(int id)
         {
             var leave = _context.LeaveRequests.Find(id);

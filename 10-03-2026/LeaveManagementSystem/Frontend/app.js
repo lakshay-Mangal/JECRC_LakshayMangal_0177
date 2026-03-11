@@ -1,33 +1,27 @@
-// Dark Mode Logic
-function toggleDarkMode() {
-    const htmlEl = document.documentElement; // Targets the <html> tag
-    const currentTheme = htmlEl.getAttribute('data-bs-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    
-    htmlEl.setAttribute('data-bs-theme', newTheme);
-    localStorage.setItem('theme', newTheme); // Save preference
-    document.getElementById('darkModeToggle').innerText = newTheme === 'dark' ? '☀️ Light Mode' : '🌙 Dark Mode';
-}
-
-// Check saved theme on page load
-function initializeTheme() {
-    const savedTheme = localStorage.getItem('theme') || 'light';
-    document.documentElement.setAttribute('data-bs-theme', savedTheme);
-    
-    const toggleBtn = document.getElementById('darkModeToggle');
-    if(toggleBtn) {
-        toggleBtn.innerText = savedTheme === 'dark' ? '☀️ Light Mode' : '🌙 Dark Mode';
-    }
-}
-initializeTheme();
-
-
-// Ensure this matches your running API URL
 const API_URL = 'http://localhost:5219/api';
 
 let isLoginMode = true;
 
-// UI Toggles
+// --- Dark Mode Logic ---
+function toggleDarkMode() {
+    const htmlEl = document.documentElement;
+    const currentTheme = htmlEl.getAttribute('data-bs-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    
+    htmlEl.setAttribute('data-bs-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    document.getElementById('darkModeToggle').innerText = newTheme === 'dark' ? '☀️ Light Mode' : '🌙 Dark Mode';
+}
+
+function initializeTheme() {
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-bs-theme', savedTheme);
+    const toggleBtn = document.getElementById('darkModeToggle');
+    if(toggleBtn) toggleBtn.innerText = savedTheme === 'dark' ? '☀️ Light Mode' : '🌙 Dark Mode';
+}
+initializeTheme();
+
+// --- Auth UI Logic ---
 function toggleAuthMode() {
     isLoginMode = !isLoginMode;
     document.getElementById('authTitle').innerText = isLoginMode ? 'Login' : 'Register';
@@ -37,20 +31,18 @@ function toggleAuthMode() {
     document.getElementById('toggleAuth').innerText = isLoginMode ? 'Need to register?' : 'Back to login';
 }
 
-// Helper to get JWT payload
 function getJwtRole() {
     const token = localStorage.getItem('token');
     if (!token) return null;
     try {
         const payload = JSON.parse(atob(token.split('.')[1]));
-        // This is the specific claim key .NET uses for roles
         return payload["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"];
     } catch (e) {
         return null;
     }
 }
 
-// Authentication
+// --- API Calls: Auth ---
 async function login() {
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
@@ -63,7 +55,7 @@ async function login() {
 
     if (res.ok) {
         const data = await res.json();
-        localStorage.setItem('token', data.token); // Save token!
+        localStorage.setItem('token', data.token);
         checkAuthState();
     } else {
         alert('Login failed. Check credentials.');
@@ -85,7 +77,8 @@ async function register() {
         alert('Registration successful! Please login.');
         toggleAuthMode();
     } else {
-        alert('Registration failed.');
+        const errorText = await res.text();
+        alert(`Registration failed: ${errorText}`);
     }
 }
 
@@ -94,23 +87,17 @@ function logout() {
     checkAuthState();
 }
 
-// Leave Operations
+// --- API Calls: Employee ---
 async function applyLeave() {
     const token = localStorage.getItem('token');
-    
-    // Grab the raw date strings
     const startDateRaw = document.getElementById('startDate').value;
     const endDateRaw = document.getElementById('endDate').value;
     
-    // Basic frontend safeguard before even hitting the API
     if (!startDateRaw || !endDateRaw) {
-        alert("Please select both a start and end date.");
-        return;
+        alert("Please select both a start and end date."); return;
     }
-    
     if (new Date(endDateRaw) < new Date(startDateRaw)) {
-        alert("End date cannot be before start date!");
-        return;
+        alert("End date cannot be before start date!"); return;
     }
 
     const request = {
@@ -120,7 +107,7 @@ async function applyLeave() {
         reason: document.getElementById('reason').value
     };
 
-    const res = await fetch(`${API_URL}/LeaveRequest`, {
+    const res = await fetch(`${API_URL}/leave`, {
         method: 'POST',
         headers: { 
             'Content-Type': 'application/json',
@@ -131,16 +118,12 @@ async function applyLeave() {
 
     if (res.ok) {
         alert('Leave applied successfully!');
-        
-        // Clear the form fields after successful submission
         document.getElementById('leaveType').value = '';
         document.getElementById('startDate').value = '';
         document.getElementById('endDate').value = '';
         document.getElementById('reason').value = '';
-        
         loadMyLeaves();
     } else {
-        // This will capture our C# BadRequest messages and show them!
         const errorText = await res.text();
         alert(`Error: ${errorText}`);
     }
@@ -148,7 +131,7 @@ async function applyLeave() {
 
 async function loadMyLeaves() {
     const token = localStorage.getItem('token');
-    const res = await fetch(`${API_URL}/LeaveRequest/my-leaves`, {
+    const res = await fetch(`${API_URL}/leave/my-leaves`, {
         headers: { 'Authorization': `Bearer ${token}` }
     });
 
@@ -157,7 +140,6 @@ async function loadMyLeaves() {
         const list = document.getElementById('myLeavesList');
         list.innerHTML = '';
         leaves.forEach(l => {
-            // Updated badge logic to handle "Rejected"
             let badgeClass = 'bg-warning text-dark';
             if (l.status === 'Approved') badgeClass = 'bg-success';
             if (l.status === 'Rejected') badgeClass = 'bg-danger';
@@ -170,32 +152,31 @@ async function loadMyLeaves() {
     }
 }
 
-async function loadAllLeaves() {
+// --- API Calls: Manager ---
+async function loadAllLeavesForManager() {
     const token = localStorage.getItem('token');
-    const res = await fetch(`${API_URL}/LeaveRequest/all`, {
+    const res = await fetch(`${API_URL}/leave/all`, {
         headers: { 'Authorization': `Bearer ${token}` }
     });
 
     if (res.ok) {
         const leaves = await res.json();
-        const tbody = document.getElementById('allLeavesTableBody');
+        const tbody = document.getElementById('managerLeavesTableBody');
         tbody.innerHTML = '';
         leaves.forEach(l => {
             let badgeClass = 'bg-warning text-dark';
             if (l.status === 'Approved') badgeClass = 'bg-success';
             if (l.status === 'Rejected') badgeClass = 'bg-danger';
 
-            // Now displays both Approve and Reject buttons if Pending
             const buttons = l.status === 'Pending' 
-                ? `<button class="btn btn-sm btn-success me-1" onclick="approveLeave(${l.id})">Approve</button>
-                   <button class="btn btn-sm btn-danger" onclick="rejectLeave(${l.id})">Reject</button>`
+                ? `<button class="btn btn-sm btn-success me-1" onclick="updateLeaveStatus(${l.id}, 'approve')">Approve</button>
+                   <button class="btn btn-sm btn-danger" onclick="updateLeaveStatus(${l.id}, 'reject')">Reject</button>`
                 : `<span>-</span>`;
                 
             tbody.innerHTML += `<tr>
                 <td>${l.id}</td>
                 <td>${l.leaveType}</td>
                 <td>${new Date(l.startDate).toLocaleDateString()} to ${new Date(l.endDate).toLocaleDateString()}</td>
-                <td>${l.reason}</td>
                 <td><span class="badge ${badgeClass}">${l.status}</span></td>
                 <td>${buttons}</td>
             </tr>`;
@@ -203,32 +184,59 @@ async function loadAllLeaves() {
     }
 }
 
-// Keep your existing approveLeave(id) function here, and add this right below it:
-
-async function rejectLeave(id) {
+async function updateLeaveStatus(id, action) {
     const token = localStorage.getItem('token');
-    const res = await fetch(`${API_URL}/LeaveRequest/reject/${id}`, {
+    const res = await fetch(`${API_URL}/leave/${action}/${id}`, {
         method: 'PUT',
         headers: { 'Authorization': `Bearer ${token}` }
     });
 
     if (res.ok) {
-        loadAllLeaves(); // Refresh the table
+        loadAllLeavesForManager();
     } else {
-        alert("Failed to reject leave.");
+        alert(`Failed to ${action} leave.`);
     }
 }
-async function approveLeave(id) {
+
+// --- API Calls: Admin ---
+async function loadEmployeesForAdmin() {
     const token = localStorage.getItem('token');
-    const res = await fetch(`${API_URL}/LeaveRequest/approve/${id}`, {
-        method: 'PUT',
+    const res = await fetch(`${API_URL}/admin/employees`, {
         headers: { 'Authorization': `Bearer ${token}` }
     });
 
-    if (res.ok) loadAllLeaves();
+    if (res.ok) {
+        const employees = await res.json();
+        const tbody = document.getElementById('adminEmployeesTableBody');
+        tbody.innerHTML = '';
+        employees.forEach(e => {
+            tbody.innerHTML += `<tr>
+                <td>${e.id}</td>
+                <td>${e.username}</td>
+                <td>${e.role}</td>
+                <td><button class="btn btn-sm btn-danger" onclick="deleteEmployee(${e.id})">Delete</button></td>
+            </tr>`;
+        });
+    }
 }
 
-// App Initialization
+async function deleteEmployee(id) {
+    if (!confirm('Are you sure you want to delete this employee?')) return;
+
+    const token = localStorage.getItem('token');
+    const res = await fetch(`${API_URL}/admin/delete/${id}`, {
+        method: 'DELETE',
+        headers: { 'Authorization': `Bearer ${token}` }
+    });
+
+    if (res.ok) {
+        loadEmployeesForAdmin();
+    } else {
+        alert("Failed to delete employee.");
+    }
+}
+
+// --- App Initialization ---
 function checkAuthState() {
     const token = localStorage.getItem('token');
     const role = getJwtRole();
@@ -236,14 +244,22 @@ function checkAuthState() {
     if (token) {
         document.getElementById('authSection').classList.add('hidden');
         document.getElementById('dashboardSection').classList.remove('hidden');
+        document.getElementById('roleBadge').innerText = `Role: ${role}`;
         
+        // Hide all views first
+        document.getElementById('employeeView').classList.add('hidden');
+        document.getElementById('managerView').classList.add('hidden');
+        document.getElementById('adminView').classList.add('hidden');
+
+        // Show specific view based on role
         if (role === 'Admin') {
             document.getElementById('adminView').classList.remove('hidden');
-            document.getElementById('employeeView').classList.add('hidden');
-            loadAllLeaves();
+            loadEmployeesForAdmin();
+        } else if (role === 'Manager') {
+            document.getElementById('managerView').classList.remove('hidden');
+            loadAllLeavesForManager();
         } else {
             document.getElementById('employeeView').classList.remove('hidden');
-            document.getElementById('adminView').classList.add('hidden');
             loadMyLeaves();
         }
     } else {
@@ -252,5 +268,4 @@ function checkAuthState() {
     }
 }
 
-// Run on page load
 checkAuthState();
