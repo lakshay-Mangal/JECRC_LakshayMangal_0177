@@ -6,13 +6,17 @@
     <title>Leave Management System</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body { background-color: #f4f7f6; padding-top: 50px; }
+        body { padding-top: 50px; }
         .hidden { display: none !important; }
     </style>
 </head>
 <body>
 
 <div class="container">
+    <div class="d-flex justify-content-end mb-2 mt-2">
+    <button class="btn btn-outline-secondary btn-sm" id="darkModeToggle" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+</div>
+
     <h2 class="text-center mb-4">Leave Management System</h2>
 
     <div id="authSection" class="card mx-auto" style="max-width: 400px;">
