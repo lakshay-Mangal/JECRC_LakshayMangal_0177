@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dynamic Module Example</title>
+
+<style>
+body{
+font-family:Arial;
+padding:40px;
+}
+
+button{
+padding:10px 18px;
+margin-top:10px;
+}
+
+#output{
+margin-top:20px;
+font-weight:bold;
+color:blue;
+}
+</style>
+</head>
+
+<body>
+
+<h2>Dynamic JavaScript Module Demo</h2>
+
+<button id="runBtn">Run Module</button>
+
+<div id="output"></div>
+
+<script type="module">
+
+const Utils = `
+export const PI = 3.14159;
+
+export const add = (a,b)=>a+b;
+export const sub = (a,b)=>a-b;
+export const mul = (a,b)=>a*b;
+
+export function div(a,b){
+ if(b===0){
+   throw new Error("Cannot divide by zero");
+ }
+ return a/b;
+}
+`;
+
+document.getElementById("runBtn").addEventListener("click",async ()=>{
+
+const blob = new Blob([Utils],{type:"text/javascript"});
+const url = URL.createObjectURL(blob);
+
+try{
+
+const module = await import(url);
+
+const results = `
+PI = ${module.PI}<br>
+ADD = ${module.add(5,7)}<br>
+SUB = ${module.sub(10,3)}<br>
+MUL = ${module.mul(4,5)}<br>
+DIV = ${module.div(10,2)}
+`;
+
+document.getElementById("output").innerHTML = results;
+
+console.log("PI:",module.PI);
+console.log("ADD:",module.add(5,7));
+console.log("SUB:",module.sub(10,3));
+console.log("MUL:",module.mul(4,5));
+console.log("DIV:",module.div(10,2));
+
+}catch(error){
+
+console.error(error);
+document.getElementById("output").innerText = error;
+
+}
+
+});
+
+</script>
+
+</body>
+</html>

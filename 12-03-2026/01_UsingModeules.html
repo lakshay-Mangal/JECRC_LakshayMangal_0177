@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Modules</title>
+</head>
+<style>
+body{
+font-family: Arial;
+padding:40px;
+}
+
+h2{
+margin-top:40px;
+}
+
+.container{
+display:flex;
+gap:40px;
+}
+
+.box{
+border:1px solid #ccc;
+padding:20px;
+width:300px;
+border-radius:8px;
+}
+
+button{
+margin-top:10px;
+padding:6px 12px;
+}
+
+.result{
+margin-top:10px;
+font-weight:bold;
+color:blue;
+}
+</style>
+<body>
+    <h1>Using Modules in JavaScript</h1>
+    <script>
+
+        //Before using Modules Project 1
+
+        function formatDate(date){
+            return `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`;
+        }
+        function valiadteEmail(email){
+            return re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+        }
+        function checkEmail1(){
+            const email = document.getElementById('email1').value;
+            const result = validateEmail(email) ? 'Valid Email' : 'Invalid Email';
+            document.getElementById('result').innerText = result;
+        }
+        
+        //Before using Modules Project 2 (dupliacte code)
+    
+        function formatDate2(date){
+            return `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`;
+        }
+        function valiadteEmail2(email){
+            return re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+        }
+        function checkEmail2(){
+            const email = document.getElementById('email2').value;
+            const result = validateEmail2(email) ? 'Valid Email' : 'Invalid Email';
+            document.getElementById('result2').innerText = result;
+        }
+        
+        //After Using Modules Project 1 (shared code in UTils module)
+
+     const Utils = {
+           formatDate(date) {
+        return `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`;
+    },
+    validateEmail(email) {
+        return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    }
+    };
+
+    document.getElementById("date3").innerText = Utils.formatDate(new Date());
+    function checkEmail3(){
+        const email = document.getElementById('email3').value;
+            const result = Utils.validateEmail(email) ? 'Valid Email' : 'Invalid Email';
+            document.getElementById('result3').innerText = result;
+    }
+    document.getElementById("date3").innerText = Utils.formatDate(new Date());
+    function checkEmail3(){
+        const email = document.getElementById('email3').value;
+            const result = Utils.validateEmail(email) ? 'Valid Email' : 'Invalid Email';
+            document.getElementById('result3').innerText = result;
+    }
+    </script>
+</body>
+</html>
