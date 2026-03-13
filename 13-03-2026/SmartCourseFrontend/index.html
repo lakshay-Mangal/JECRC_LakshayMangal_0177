@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Course Management System</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Loading Overlay -->
+<div id="loading" class="loading-overlay">
+    <div class="spinner"></div>
+</div>
+
+<!-- Toast -->
+<div id="toast" class="toast"></div>
+
+<!-- Edit Modal -->
+<div id="editModal" class="modal-backdrop">
+    <div class="modal">
+        <h2>Edit Course</h2>
+        <button id="closeModal" class="modal-close">✕</button>
+        <form id="editCourseForm">
+            <label>Course Name
+                <input id="editCourseName" type="text" required />
+            </label>
+            <label>Department
+                <select id="editCourseDept" required></select>
+            </label>
+            <label>Credits
+                <input id="editCourseCredits" type="number" min="1" max="6" required />
+            </label>
+            <label class="checkbox-row">
+                <input id="editCourseSeats" type="checkbox" /> Seats Available
+            </label>
+            <button type="submit" class="btn btn-primary">Save Changes</button>
+        </form>
+    </div>
+</div>
+
+<!-- Header -->
+<header class="header">
+    <div class="header-inner">
+        <div class="logo">🎓 SmartCourse</div>
+        <div class="header-right">
+            <span id="roleLabel" class="role-label">Student View</span>
+            <button id="roleToggle" class="btn btn-outline">🛠 Switch to Admin</button>
+        </div>
+    </div>
+</header>
+
+<!-- Nav -->
+<nav class="nav">
+    <button class="nav-btn active" data-section="courses">📚 Courses</button>
+    <button class="nav-btn" data-section="enrollments">📋 Enrollments</button>
+    <button class="nav-btn admin-only-tab" data-section="students" style="display:none">👥 Students</button>
+    <button class="nav-btn admin-only-tab" data-section="admin" style="display:none">⚙️ Admin</button>
+</nav>
+
+<main class="main">
+
+    <!-- ── Courses Section ─────────────────────────────────────────── -->
+    <section id="courses" class="section active">
+        <div class="section-header">
+            <h2>Available Courses</h2>
+            <div class="search-bar">
+                <input id="searchInput" type="text" placeholder="Search by name or department…" />
+                <button id="searchBtn" class="btn btn-primary">Search</button>
+            </div>
+        </div>
+
+        <!-- Admin: Enroll on behalf of student -->
+        <div id="adminPanel" style="display:none" class="panel">
+            <label>Acting as Student:
+                <select id="enrollStudent"></select>
+            </label>
+        </div>
+
+        <div id="courseList" class="card-grid"></div>
+    </section>
+
+    <!-- ── Enrollments Section ─────────────────────────────────────── -->
+    <section id="enrollments" class="section">
+        <div class="section-header">
+            <h2>Enrollment History</h2>
+        </div>
+        <div id="enrollmentList"></div>
+    </section>
+
+    <!-- ── Students Section ───────────────────────────────────────── -->
+    <section id="students" class="section">
+        <div class="section-header"><h2>Register a Student</h2></div>
+        <div class="form-card">
+            <form id="studentForm">
+                <div class="form-grid">
+                    <label>Full Name
+                        <input id="studentName" type="text" required placeholder="Alice Johnson" />
+                    </label>
+                    <label>Email
+                        <input id="studentEmail" type="email" required placeholder="alice@example.com" />
+                    </label>
+                    <label>Phone
+                        <input id="studentPhone" type="text" placeholder="555-0101" />
+                    </label>
+                    <label>Role
+                        <select id="studentRole">
+                            <option value="Student">Student</option>
+                            <option value="Admin">Admin</option>
+                        </select>
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Register Student</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ── Admin Section ──────────────────────────────────────────── -->
+    <section id="admin" class="section">
+        <div class="section-header"><h2>Admin Panel</h2></div>
+
+        <div class="admin-grid">
+            <!-- Add Course -->
+            <div class="form-card">
+                <h3>➕ Add New Course</h3>
+                <form id="courseForm">
+                    <label>Course Name
+                        <input id="courseName" type="text" required placeholder="Introduction to Python" />
+                    </label>
+                    <label>Department
+                        <select id="courseFormDept" required></select>
+                    </label>
+                    <label>Credits
+                        <input id="courseCredits" type="number" min="1" max="6" required value="3" />
+                    </label>
+                    <label class="checkbox-row">
+                        <input id="courseSeats" type="checkbox" checked /> Seats Available
+                    </label>
+                    <button type="submit" class="btn btn-primary">Add Course</button>
+                </form>
+            </div>
+
+            <!-- Add Department -->
+            <div class="form-card">
+                <h3>🏛 Add Department</h3>
+                <form id="deptForm">
+                    <label>Department Name
+                        <input id="deptName" type="text" required placeholder="Electrical Engineering" />
+                    </label>
+                    <button type="submit" class="btn btn-primary">Add Department</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
