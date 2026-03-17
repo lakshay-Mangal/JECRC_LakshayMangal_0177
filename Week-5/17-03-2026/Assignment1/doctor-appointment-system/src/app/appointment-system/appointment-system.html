@@ -1,0 +1,53 @@
+<h2 class="title">Doctor Appointment System</h2>
+
+<div class="container">
+
+<div class="form-section">
+
+<label>Patient Name</label>
+<input type="text" [(ngModel)]="patientName">
+
+<label>Doctor</label>
+<select [(ngModel)]="doctorName">
+  <option value="">Select Doctor</option>
+  <option value="Dr. Sharma">Dr. Sharma</option>
+  <option value="Dr. Bharadwaj">Dr. Bharadwaj</option>
+  <option value="Dr. Mangal">Dr. Mangal</option>
+</select>
+
+<label>Appointment Date</label>
+<input type="date" [(ngModel)]="date" [min]="today">
+
+<label>Consultation Type</label>
+<select [(ngModel)]="consultationType" (change)="updateFee()">
+  <option value="">Select Type</option>
+  <option value="Offline">Offline</option>
+  <option value="Online">Online</option>
+</select>
+
+<label>Symptoms</label>
+<textarea rows="3" [(ngModel)]="symptoms"></textarea>
+
+<button (click)="submitForm()">Book Appointment</button>
+
+</div>
+
+
+<div class="summary-section">
+
+<h3>Live Appointment Summary</h3>
+
+<p><b>Patient:</b> {{patientName || '—'}}</p>
+<p><b>Doctor:</b> {{doctorName || '—'}}</p>
+<p><b>Date:</b> {{date || '—'}}</p>
+<p><b>Consultation:</b> {{consultationType || '—'}}</p>
+<p><b>Symptoms:</b> {{symptoms || '—'}}</p>
+<p><b>Fee:</b> ₹{{fee}}</p>
+
+<div *ngIf="submitted" class="confirm">
+Appointment Booked Successfully
+</div>
+
+</div>
+
+</div>

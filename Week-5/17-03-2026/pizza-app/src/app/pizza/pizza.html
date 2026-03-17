@@ -1,0 +1,29 @@
+<h2> Pizza Ordering System </h2>
+
+<label> Pizza Name:</label>
+<input type="text" [(ngModel)]="pizzaName">
+<br><br>
+
+<label> Quantity:</label>
+<input type="number" [(ngModel)]="quantity">
+<br><br>
+
+<label> Size:</label>
+<select [(ngModel)]="size">
+  <option value="Regular">Regular</option>
+  <option value="Medium">Medium</option>
+  <option value="Large">Large</option>
+</select>
+<br><br>
+
+<label> Deliver Address:</label>
+<textarea [(ngModel)]="address"></textarea>
+
+<hr>
+
+<h3> Order Summary</h3>
+
+<p> Pizza: {{pizzaName}} </p>
+<p> Quantity: {{quantity}} </p>
+<p> Size: {{size}} </p>
+<p> Address: {{address}} </p>
