@@ -57,3 +57,34 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+Question
+1
+Hospital Appointment Booking
+Description
+Build a Doctor Appointment System
+
+ Features
+Patient Name
+
+Doctor Selection (Dropdown)
+
+Appointment Date
+
+Consultation Type (Online / Offline)
+
+Symptoms (Textarea)
+
+Logic
+Consultation Fee:
+
+Online → ₹300
+
+Offline → ₹500
+
+Show live appointment summary
+
+Bonus
+Disable past dates
+
+Show confirmation message
