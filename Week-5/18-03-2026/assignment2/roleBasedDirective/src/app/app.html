@@ -1,0 +1,19 @@
+<div style="padding: 20px; font-family: sans-serif;">
+
+  <button (click)="currentRole = 'admin'">Select Admin</button>
+  <button (click)="currentRole = 'user'">Select User</button>
+  
+  <p>Active Role: <strong>{{ currentRole }}</strong></p>
+  <hr>
+
+  <div *appRole="'admin'; active: currentRole" style="background: #ffcccc; padding: 20px;">
+    <h2>Admin Dashboard</h2>
+    <p>Only admins can see this.</p>
+  </div>
+
+  <div *appRole="'admin,user'; active: currentRole" style="background: #ccffcc; padding: 20px; margin-top: 10px;">
+    <h2>User Dashboard</h2>
+    <p>Both users and admins can see this.</p>
+  </div>
+
+</div>
