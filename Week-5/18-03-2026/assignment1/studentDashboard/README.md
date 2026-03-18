@@ -57,3 +57,22 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+Question
+2
+Student Dashboard
+Description
+Student Dashboard
+Requirements:
+Create student Dashboad use all these directives.
+Use *ngFor → List students
+
+Use *ngIf → Show pass/fail
+
+Use ngSwitch → Grade system
+
+Use ngClass → Highlight toppers
+
+Use ngStyle → Color pass/fail
+

@@ -57,3 +57,15 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+Question
+3
+Role-Based Directive
+Description
+Role-Based Directive
+Requirement Explanation: Using Custom Directive 
+The UI should restrict visibility of elements based on user role.
+
+If user role = admin → show element
+
+Otherwise → hide element

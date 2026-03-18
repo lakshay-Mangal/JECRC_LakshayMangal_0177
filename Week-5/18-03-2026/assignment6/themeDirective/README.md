@@ -57,3 +57,16 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+Question
+7
+Theme Directive
+Description
+Theme Directive
+Requirement Explanation: Using Custom Directive 
+The UI should support dynamic theme switching:
+
+Dark Mode → Dark background + light text
+
+Light Mode → Light background + dark text

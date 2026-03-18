@@ -57,3 +57,16 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+Question
+6
+Status Color Directive
+Description
+Using Custom Directive Status Color Directive
+Requirement Explanation
+The UI should visually indicate a student’s result status based on marks.
+
+If marks are greater than or equal to passing criteria (e.g., 50) → show success (Green)
+
+If marks are below passing criteria → show failure (Red)

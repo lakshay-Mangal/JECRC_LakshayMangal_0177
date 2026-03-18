@@ -57,3 +57,14 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+Price Highlight Directive
+Description
+Price Highlight Directive
+Requirement Explanation: Using Custom Directive 
+The UI should highlight items based on price value:
+
+If price > 50000 → High value → Red
+
+Else → Normal → Greens

@@ -57,3 +57,16 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+Question
+5
+Click Block Directive
+Description
+Click Block Directive
+Requirement Explanation: Using Custom Directive 
+The UI should prevent user interaction based on a condition.
+
+If condition = false → block click
+
+If condition = true → allow click
