@@ -1,0 +1,17 @@
+<div [appTheme]="currentTheme" style="min-height: 100vh; padding: 20px; font-family: Arial, sans-serif;">
+  
+  <h2>Theme Switcher Directive</h2>
+  <p>Currently active theme: <strong>{{ currentTheme | uppercase }}</strong></p>
+
+  <button 
+    (click)="toggleTheme()" 
+    style="padding: 10px 20px; font-size: 16px; cursor: pointer; margin-top: 10px;">
+    Switch to {{ currentTheme === 'light' ? 'Dark' : 'Light' }} Mode
+  </button>
+
+  <div style="margin-top: 30px; padding: 20px; border: 1px solid #ccc; border-radius: 8px;">
+    <h3>Sample Content Area</h3>
+    <p> both the background and the text color change automatically because the directive is applied to the parent container.</p>
+  </div>
+
+</div>

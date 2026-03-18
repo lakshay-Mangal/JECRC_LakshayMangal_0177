@@ -1,0 +1,13 @@
+<div class="catalog-container">
+  <h2>Product Catalog</h2>
+  <hr>
+
+  <div *ngFor="let item of products" class="product-row">
+    <span>{{ item.name }}</span>
+    
+    <span [appPriceHighlight]="item.price">
+      ₹{{ item.price }}
+    </span>
+  </div>
+
+</div>

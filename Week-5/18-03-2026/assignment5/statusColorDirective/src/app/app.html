@@ -1,0 +1,14 @@
+<div style="padding: 20px; font-family: Arial, sans-serif; max-width: 400px;">
+  <h2>Student Results</h2>
+  <hr style="margin-bottom: 20px;">
+
+  <div *ngFor="let student of students" style="display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid #eee; font-size: 16px;">
+    
+    <span>{{ student.name }}</span>
+    
+    <span [appStatusColor]="student.marks">
+      {{ student.marks }} ({{ student.marks >= 50 ? 'Pass' : 'Fail' }})
+    </span>
+    
+  </div>
+</div>

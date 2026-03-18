@@ -1,0 +1,16 @@
+<div style="padding: 20px; font-family: Arial, sans-serif;">
+  <h2>Simple Click Block</h2>
+  
+  <label style="display: block; margin-bottom: 20px; font-weight: bold;">
+    <input type="checkbox" (change)="isAllowed = !isAllowed" [checked]="isAllowed">
+    Allow Interaction
+  </label>
+
+  <button 
+    [appClickBlock]="isAllowed" 
+    (click)="executeSecureAction()"
+    style="padding: 10px 20px; font-size: 16px; cursor: pointer;">
+    Execute Secure Action
+  </button>
+
+</div>
