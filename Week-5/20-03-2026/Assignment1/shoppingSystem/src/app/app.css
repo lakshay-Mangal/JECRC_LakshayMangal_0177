@@ -1,0 +1,86 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page background */
+body {
+  background: #121212;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+/* Main heading */
+h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 32px;
+  background: linear-gradient(90deg, #00bcd4, #00e676);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Layout wrapper (auto applies since components are block) */
+app-product,
+app-cart,
+app-checkout {
+  display: block;
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Section styling */
+app-product {
+  background: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+
+app-cart {
+  background: #1a1a1a;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+
+app-checkout {
+  background: #181818;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+
+/* Section spacing */
+app-product + app-cart,
+app-cart + app-checkout {
+  margin-top: 30px;
+}
+
+/* Responsive layout */
+@media (min-width: 900px) {
+  app-product,
+  app-cart {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  app-checkout {
+    width: 98%;
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}

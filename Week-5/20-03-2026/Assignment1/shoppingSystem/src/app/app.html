@@ -1,0 +1,10 @@
+<h1>Smart E-Commerce</h1>
+
+<app-product (addToCart)="addToCart($event)"></app-product>
+
+<app-cart
+  [cartItems]="cartItems"
+  (updateCart)="cartItems = $event">
+</app-cart>
+
+<app-checkout [cartItems]="cartItems"></app-checkout>

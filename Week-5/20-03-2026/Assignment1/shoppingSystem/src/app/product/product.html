@@ -1,0 +1,14 @@
+<h2>Products</h2>
+
+<input [(ngModel)]="search" placeholder="Search" />
+<select [(ngModel)]="category">
+  <option value="">All</option>
+  <option *ngFor="let c of categories">{{c}}</option>
+</select>
+
+<div *ngFor="let p of filteredProducts()">
+  <h3>{{p.name}}</h3>
+  <p>₹{{p.price}}</p>
+  <input type="number" [(ngModel)]="p.quantity" min="1">
+  <button (click)="add(p)">Add to Cart</button>
+</div>

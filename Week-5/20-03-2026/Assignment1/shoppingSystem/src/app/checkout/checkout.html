@@ -1,0 +1,41 @@
+<h2>Checkout</h2>
+
+<form (ngSubmit)="placeOrder()" #orderForm="ngForm">
+
+<input name="name" [(ngModel)]="data.name" placeholder="Full Name" required>
+<input type="email" name="email" [(ngModel)]="data.email" placeholder="Email" required>
+<input type="number" name="phone" [(ngModel)]="data.phone" placeholder="Phone" required>
+
+  <textarea name="address" [(ngModel)]="data.address" placeholder="Address"></textarea>
+
+<select name="city" [(ngModel)]="data.city"> <option>Jaipur</option> <option>Delhi</option> </select>
+
+<input type="date" name="date" [(ngModel)]="data.date">
+
+  <label>
+    <input type="radio" name="payment" value="card" [(ngModel)]="data.payment"> Card
+  </label>
+
+  <label>
+    <input type="radio" name="payment" value="upi" [(ngModel)]="data.payment"> UPI
+  </label>
+
+  <div *ngIf="data.payment === 'card'">
+    <input name="card" [(ngModel)]="data.card" placeholder="Card Number">
+  </div>
+
+  <div *ngIf="data.payment === 'upi'">
+    <input name="upi" [(ngModel)]="data.upi" placeholder="UPI ID">
+  </div>
+
+  <input type="file">
+
+  <label>
+    <input type="checkbox" name="terms" [(ngModel)]="data.terms" required>
+    Accept Terms
+  </label>
+
+<button type="submit" [disabled]="!orderForm.valid">
+Place Order </button>
+
+</form>

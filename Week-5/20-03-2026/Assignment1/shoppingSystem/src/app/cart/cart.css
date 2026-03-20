@@ -1,0 +1,132 @@
+/* General Layout */
+body {
+  background: #121212;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+/* Section Headings */
+h2, h3 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Search + Filter */
+input[type="text"],
+select {
+  display: block;
+  width: 300px;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #1e1e1e;
+  color: #fff;
+}
+
+/* Product Grid */
+div[ng-reflect-ng-for-of] {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Product Card */
+div[ng-reflect-ng-for-of] > div {
+  background: #1e1e1e;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  text-align: center;
+  transition: 0.2s;
+}
+
+div[ng-reflect-ng-for-of] > div:hover {
+  transform: translateY(-5px);
+}
+
+/* Product Price */
+p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* Quantity Input */
+input[type="number"] {
+  width: 60px;
+  padding: 6px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: #2c2c2c;
+  color: #fff;
+  text-align: center;
+}
+
+/* Buttons */
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  background: #00bcd4;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #0097a7;
+}
+
+/* Cart Section */
+h2 + div {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Cart Items */
+h2 + div > div {
+  background: #1e1e1e;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Cart Buttons */
+h2 + div button {
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+/* Total Section */
+h3 {
+  margin-top: 20px;
+  color: #00e676;
+}
+
+/* Clear Cart Button */
+button:last-of-type {
+  display: block;
+  margin: 20px auto;
+  background: #ff5252;
+  color: #fff;
+}
+
+button:last-of-type:hover {
+  background: #d32f2f;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  input[type="text"],
+  select {
+    width: 90%;
+  }
+}
