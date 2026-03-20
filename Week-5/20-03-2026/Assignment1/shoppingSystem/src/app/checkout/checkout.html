@@ -2,15 +2,18 @@
 
 <form (ngSubmit)="placeOrder()" #orderForm="ngForm">
 
-<input name="name" [(ngModel)]="data.name" placeholder="Full Name" required>
-<input type="email" name="email" [(ngModel)]="data.email" placeholder="Email" required>
-<input type="number" name="phone" [(ngModel)]="data.phone" placeholder="Phone" required>
+  <input name="name" [(ngModel)]="data.name" placeholder="Full Name" required>
+  <input type="email" name="email" [(ngModel)]="data.email" placeholder="Email" required>
+  <input type="number" name="phone" [(ngModel)]="data.phone" placeholder="Phone" required>
 
   <textarea name="address" [(ngModel)]="data.address" placeholder="Address"></textarea>
 
-<select name="city" [(ngModel)]="data.city"> <option>Jaipur</option> <option>Delhi</option> </select>
+  <select name="city" [(ngModel)]="data.city"> 
+    <option>Jaipur</option> 
+    <option>Delhi</option> 
+  </select>
 
-<input type="date" name="date" [(ngModel)]="data.date">
+  <input type="date" name="date" [(ngModel)]="data.date">
 
   <label>
     <input type="radio" name="payment" value="card" [(ngModel)]="data.payment"> Card
@@ -20,12 +23,19 @@
     <input type="radio" name="payment" value="upi" [(ngModel)]="data.payment"> UPI
   </label>
 
-  <div *ngIf="data.payment === 'card'">
-    <input name="card" [(ngModel)]="data.card" placeholder="Card Number">
+  <label>
+    <input type="radio" name="payment" value="cod" [(ngModel)]="data.payment"> Cash on Delivery
+  </label>
+
+
+  <div *ngIf="data.payment === 'card'" style="display: flex; flex-direction: column; gap: 10px;">
+    <input type="text" name="card" [(ngModel)]="data.card" placeholder="Card Number" required>
+    <input type="text" name="expiry" [(ngModel)]="data.expiry" placeholder="Expiry Date (MM/YY)" required>
+    <input type="password" name="cvv" [(ngModel)]="data.cvv" placeholder="CVV" required>
   </div>
 
-  <div *ngIf="data.payment === 'upi'">
-    <input name="upi" [(ngModel)]="data.upi" placeholder="UPI ID">
+  <div *ngIf="data.payment === 'upi'" style="display: flex; flex-direction: column; gap: 10px;">
+    <input type="text" name="upi" [(ngModel)]="data.upi" placeholder="UPI ID" required>
   </div>
 
   <input type="file">
@@ -35,7 +45,8 @@
     Accept Terms
   </label>
 
-<button type="submit" [disabled]="!orderForm.valid">
-Place Order </button>
+  <button type="submit" [disabled]="!orderForm.valid">
+    Place Order 
+  </button>
 
 </form>
