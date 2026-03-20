@@ -13,7 +13,7 @@ export class App {
     { name: "Arjun", marks: 92 },
     { name: "Bhatra", marks: 86 },
     { name: "Chetan", marks: 62 },
-    { name: "Dinesh", marks: 12 }, // Fixed a tiny typo here
+    { name: "Dinesh", marks: 12 },
     { name: "Farukh", marks: 22 }
   ];
 
