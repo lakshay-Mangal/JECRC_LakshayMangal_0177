@@ -11,7 +11,7 @@ templateUrl: './cart.html',
 export class Cart {
   constructor(public cartService: CartService){}
 
-  get Total(){
+  get total(){
     return this.cartService.getTotal();
   }
 }

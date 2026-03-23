@@ -7,7 +7,7 @@ export class CartService {
   cartItems : any[] =[];
 
  addToCart(product : Product){
-    const item= this.cartItems.find(i => i.product.productID === product.productID);
+    const item= this.cartItems.find(i => i.productID === product.productID);
     if(item){
       item.quantity++;
     }
