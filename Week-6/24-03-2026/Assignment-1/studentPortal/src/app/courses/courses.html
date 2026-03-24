@@ -1,0 +1,14 @@
+<div class="courses-container">
+  <h2>Available Courses</h2>
+  
+  <div class="course-grid">
+    <div class="course-card" *ngFor="let course of courseList">
+      <h3>{{ course.title }}</h3>
+      <p>{{ course.description }}</p>
+      
+      <button [routerLink]="['/course', course.id]" class="btn-primary">
+        View Details
+      </button>
+    </div>
+  </div>
+</div>

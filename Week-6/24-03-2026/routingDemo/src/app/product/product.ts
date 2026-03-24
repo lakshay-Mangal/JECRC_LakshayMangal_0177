@@ -3,6 +3,7 @@ import { Product } from '../product';
 import { ProductService } from '../product.service';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-product',
   imports: [CommonModule,RouterModule],
@@ -17,4 +18,5 @@ export class ProductComponent implements OnInit
   ngOnInit(): void {
     this.products = this.productService.getProducts();
   }
+  
 }
