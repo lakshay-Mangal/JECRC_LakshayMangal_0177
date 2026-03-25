@@ -1,0 +1,9 @@
+<div style="max-width: 600px; margin: 20px auto; font-family: sans-serif;">
+  
+  <app-task-form (taskAdded)="taskList.tasks.unshift($event)"></app-task-form>
+  
+  <hr style="margin: 20px 0;">
+
+  <app-task-list #taskList></app-task-list>
+
+</div>

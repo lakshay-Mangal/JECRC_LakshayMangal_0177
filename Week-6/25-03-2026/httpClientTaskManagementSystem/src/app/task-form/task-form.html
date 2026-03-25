@@ -1,0 +1,13 @@
+<div style="margin-bottom: 20px;">
+  <h2>Add New Task</h2>
+  <form [formGroup]="taskForm" (ngSubmit)="onSubmit()">
+    
+    <div style="margin-bottom: 10px;">
+      <label for="title">Task Title: </label>
+      <input id="title" type="text" formControlName="title">
+    </div>
+
+    <button type="submit" [disabled]="taskForm.invalid">Add Task</button>
+    
+  </form>
+</div>
