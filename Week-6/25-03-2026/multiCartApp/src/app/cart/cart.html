@@ -1,0 +1,11 @@
+<h2>Cart</h2>
+
+<ul>
+  <li *ngFor="let item of getCartItems(); let i = index">
+    {{ item }}
+  </li>
+</ul>
+
+<p *ngIf="getCartItems().length === 0">Cart is empty</p>
+
+<button (click)="clearCart()">Clear Cart</button>
