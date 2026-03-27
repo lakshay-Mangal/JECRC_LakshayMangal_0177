@@ -1,0 +1,26 @@
+<!-- src/app/employee/employee-view/employee-view.html -->
+<div class="page-container">
+  <div class="card view-card">
+    <h2>👤 Employee Details</h2>
+
+    @if (employee) {
+      <div class="detail-avatar">{{ employee.name.charAt(0).toUpperCase() }}</div>
+      <div class="detail-row">
+        <span class="detail-label">Full Name</span>
+        <span class="detail-value">{{ employee.name }}</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Role</span>
+        <span class="detail-value"><span class="role-badge">{{ employee.role }}</span></span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Employee ID</span>
+        <span class="detail-value">#{{ employee.id }}</span>
+      </div>
+      <div class="view-actions">
+        <a [routerLink]="['/employees/edit', employee.id]" class="btn btn-warning">Edit</a>
+        <a routerLink="/employees" class="btn btn-secondary">← Back</a>
+      </div>
+    }
+  </div>
+</div>
