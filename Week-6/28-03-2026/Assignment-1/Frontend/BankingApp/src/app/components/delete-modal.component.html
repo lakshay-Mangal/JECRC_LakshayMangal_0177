@@ -1,0 +1,22 @@
+
+
+<div class="modal-overlay" (click)="cancel.emit()"></div>
+
+<div class="modal-panel">
+  <div class="modal-icon">&#9888;</div>
+  <h3 class="modal-title">Delete Transaction?</h3>
+  <p class="modal-desc">
+    You are about to permanently delete:
+  </p>
+  <div class="tx-preview" *ngIf="transaction">
+    <span class="tx-date">{{ transaction.date }}</span>
+    <span class="tx-desc">{{ transaction.description }}</span>
+    <span class="tx-amount">${{ transaction.amount | number:'1.2-2' }}</span>
+  </div>
+  <p class="modal-warn">This action cannot be undone.</p>
+
+  <div class="modal-footer">
+    <button class="btn btn-cancel" (click)="cancel.emit()">Cancel</button>
+    <button class="btn btn-delete" (click)="confirm.emit()">Delete</button>
+  </div>
+</div>

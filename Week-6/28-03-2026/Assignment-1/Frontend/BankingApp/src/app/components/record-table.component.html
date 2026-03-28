@@ -1,0 +1,123 @@
+<div class="container">
+
+  <!-- Header -->
+  <div class="bank-header">
+    <div class="bank-logo">
+      <span class="logo-icon">&#9670;</span>
+      <span class="logo-text">HACKER<span class="logo-accent">BANK</span></span>
+    </div>
+    <div class="header-right">
+      <div class="account-info">
+        <span class="account-label">Checking Account</span>
+        <span class="account-number">****4729</span>
+      </div>
+      <button class="btn-add" (click)="openCreateForm()">
+        &#43; New Transaction
+      </button>
+    </div>
+  </div>
+
+  <!-- Toast notifications -->
+  <div class="toast toast-success" *ngIf="successMessage">
+    <span class="toast-icon">&#10003;</span> {{ successMessage }}
+  </div>
+  <div class="toast toast-error" *ngIf="errorMessage">
+    <span class="toast-icon">&#10005;</span> {{ errorMessage }}
+  </div>
+
+  <!-- Summary stats -->
+  <div class="stats-bar">
+    <div class="stat">
+      <span class="stat-label">Showing</span>
+      <span class="stat-value">{{ filteredTransactions.length }} transactions</span>
+    </div>
+    <div class="stat">
+      <span class="stat-label">Credits</span>
+      <span class="stat-value credit">+{{ totalCredits | currency }}</span>
+    </div>
+    <div class="stat">
+      <span class="stat-label">Debits</span>
+      <span class="stat-value debit">-{{ totalDebits | currency }}</span>
+    </div>
+  </div>
+
+  <!-- Filter controls -->
+  <div class="controls-bar">
+    <div class="filter-group">
+      <label for="dateFilter">Filter by Date:</label>
+      <input
+        type="date"
+        id="dateFilter"
+        [(ngModel)]="selectedDate"
+        class="date-input"
+      />
+      <button class="btn btn-filter" [disabled]="!selectedDate" (click)="onFilter()">
+        Filter
+      </button>
+      <button class="btn btn-reset" (click)="resetFilter()">Reset</button>
+    </div>
+  </div>
+
+  <!-- Table -->
+  <div class="table-wrapper">
+    <table class="tx-table">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Description</th>
+          <th>Type</th>
+          <th class="sortable" (click)="sortByAmount()">
+            Amount ($) <span class="sort-icon">&#9650;</span>
+          </th>
+          <th>Balance</th>
+          <th class="actions-col">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let tx of filteredTransactions">
+          <td class="date-cell">{{ tx.date }}</td>
+          <td class="desc-cell">{{ tx.description }}</td>
+          <td>
+            <span class="type-badge" [ngClass]="tx.type === 0 ? 'credit' : 'debit'">
+              {{ getTypeLabel(tx.type) }}
+            </span>
+          </td>
+          <td class="amount-cell" [ngClass]="tx.type === 0 ? 'amount-credit' : 'amount-debit'">
+            {{ tx.type === 0 ? '+' : '-' }}{{ tx.amount | currency }}
+          </td>
+          <td class="balance-cell">{{ tx.balance }}</td>
+          <td class="actions-cell">
+            <button class="icon-btn edit-btn" title="Edit" (click)="openEditForm(tx)">
+              &#9998;
+            </button>
+            <button class="icon-btn delete-btn" title="Delete" (click)="openDeleteModal(tx)">
+              &#128465;
+            </button>
+          </td>
+        </tr>
+
+        <tr *ngIf="filteredTransactions.length === 0">
+          <td colspan="6" class="empty-state">
+            No transactions found.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- Create / Edit Form Modal -->
+<app-transaction-form
+  *ngIf="showForm"
+  [editTransaction]="editTransaction"
+  (save)="onSave($event)"
+  (cancel)="closeForm()"
+></app-transaction-form>
+
+<!-- Delete Confirm Modal -->
+<app-delete-modal
+  *ngIf="deleteTarget"
+  [transaction]="deleteTarget"
+  (confirm)="confirmDelete()"
+  (cancel)="cancelDelete()"
+></app-delete-modal>
