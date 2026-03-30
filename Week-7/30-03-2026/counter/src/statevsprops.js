@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 function DisplayCard({ title, value, onChange, style }) {
   const [internalCount, setInternalCount] = useState(0);
@@ -7,21 +7,25 @@ function DisplayCard({ title, value, onChange, style }) {
     <div
       style={{
         border: "1px solid #ccc",
-        borderRadius: "8px",
+        borderRadius: "10px",
         padding: "20px",
         margin: "10px",
-        width: "200px",
+        width: "250px",
         textAlign: "center",
-        ...style   
+        backgroundColor: style?.backgroundColor,
+        boxShadow: "0 5px 15px rgba(0,0,0,0.1)"
       }}
     >
       <h3>{title}</h3>
-      <p>{value}</p>
-      <p>Internal: {internalCount}</p>
 
-      <button onClick={() => setInternalCount(c => c + 1)}>
+      <p>Props Value (Parent): {value}</p>
+      <p>Internal State: {internalCount}</p>
+
+      <button onClick={() => setInternalCount(internalCount + 1)}>
         Update Internal Count
       </button>
+
+      <br/><br/>
 
       <button onClick={() => onChange(value + 1)}>
         Update Parent Count
@@ -41,27 +45,36 @@ function StateVsPropsDemo() {
   };
 
   return (
-    <div style={{ padding: "20px" }}>
+    <div style={{ textAlign: "center" }}>
+      <h2>State vs Props Demo</h2>
+
       <p>Parent Count: {parentCount}</p>
 
-      <button onClick={() => setParentStep(s => s + 1)}>
+      <button onClick={() => setParentStep(parentStep + 1)}>
         Increase Step (Current: {parentStep})
       </button>
 
       <button
         onClick={() =>
-          setDisplayColor(c =>
-            c === "lightblue" ? "lightcoral" : "lightblue"
+          setDisplayColor(
+            displayColor === "lightblue" ? "lightcoral" : "lightblue"
           )
         }
         style={{ marginLeft: "10px" }}
       >
-        Toggle display color
+        Toggle Display Color
       </button>
 
       <div style={{ display: "flex", justifyContent: "center" }}>
         <DisplayCard
-          title="Child component Counter Card"
+          title="Child Component 1"
+          value={parentCount}
+          onChange={handleParentCountChange}
+          style={{ backgroundColor: displayColor }}
+        />
+
+        <DisplayCard
+          title="Child Component 2"
           value={parentCount}
           onChange={handleParentCountChange}
           style={{ backgroundColor: displayColor }}
