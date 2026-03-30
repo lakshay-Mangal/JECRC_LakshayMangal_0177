@@ -33,7 +33,7 @@ function DisplayCard({ title, value, onChange, style }) {
     </div>
   );
 }
-
+//parent
 function StateVsPropsDemo() {
   const [parentCount, setParentCount] = useState(0);
   const [parentStep, setParentStep] = useState(1);
