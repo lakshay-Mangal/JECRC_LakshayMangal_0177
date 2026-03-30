@@ -1,0 +1,49 @@
+/* Base (Light Mode) */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #111111;
+  --card-bg: #f5f5f5;
+  --border-color: #dddddd;
+  --button-bg: #111111;
+  --button-text: #ffffff;
+}
+
+/* Dark Mode Overrides */
+.dark {
+  --bg-color: #121212;
+  --text-color: #e5e5e5;
+  --card-bg: #1e1e1e;
+  --border-color: #333333;
+  --button-bg: #e5e5e5;
+  --button-text: #121212;
+}
+
+/* Apply variables */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: sans-serif;
+}
+
+/* Container / card */
+.container {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Button */
+button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button:hover {
+  opacity: 0.85;
+}
