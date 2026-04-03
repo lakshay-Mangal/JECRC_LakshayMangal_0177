@@ -1,0 +1,152 @@
+/* src/index.css */
+
+:root {
+  --primary-color: #4f46e5;
+  --primary-hover: #4338ca;
+  --bg-color: #f3f4f6;
+  --surface-color: #ffffff;
+  --text-main: #1f2937;
+  --text-muted: #6b7280;
+  --border-color: #e5e7eb;
+  --error-color: #ef4444;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  line-height: 1.5;
+  padding: 20px;
+}
+
+/* Container for Login & Dashboards */
+div[style*="maxWidth: '400px'"], /* Targets the login container */
+div[style*="padding: '20px'"] {  /* Targets the dashboard containers */
+  background: var(--surface-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border: 1px solid var(--border-color) !important;
+  max-width: 900px;
+  margin: 40px auto !important;
+  padding: 30px !important;
+}
+
+/* Headers */
+h2, h3 {
+  color: var(--text-main);
+  margin-bottom: 15px;
+}
+
+header {
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: var(--border-color);
+  margin: 20px 0;
+}
+
+/* Forms and Inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Buttons */
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: var(--primary-hover);
+}
+
+button[style*="color: 'red'"],
+button[style*="color: red"] {
+  background-color: transparent;
+  color: var(--error-color) !important;
+  border: 1px solid var(--error-color);
+}
+
+button[style*="color: 'red'"]:hover,
+button[style*="color: red"]:hover {
+  background-color: #fef2f2;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: var(--surface-color);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+th {
+  background-color: #f9fafb;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+tr:hover td {
+  background-color: #f9fafb;
+}
+
+/* Error Messages */
+p[style*="color: 'red'"] {
+  background-color: #fef2f2;
+  color: var(--error-color) !important;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #fecaca;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
