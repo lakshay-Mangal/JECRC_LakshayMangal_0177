@@ -13,10 +13,10 @@ function App() {
     <AuthProvider>
       <EmployeeProvider>
         
-        {/* Router handles the changing of URLs without reloading the whole page */}
+        {/* Router basically handles the changing of URLs without reloading the whole page */}
         <Router>
           <Routes>
-            {/* If someone goes to the base URL "/", instantly send them to login */}
+            {/* If someone goes to the base URL "/", this will instantly send them to login */}
             <Route path="/" element={<Navigate to="/login" replace />} />
             
             <Route path="/login" element={<Login />} />
