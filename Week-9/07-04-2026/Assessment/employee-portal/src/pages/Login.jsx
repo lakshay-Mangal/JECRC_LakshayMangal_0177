@@ -10,36 +10,50 @@ export default function Login() {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    // Remember, our mock auth expects 'admin' and 'password'
     const success = login(credentials.username, credentials.password);
     if (success) {
       navigate('/');
     } else {
-      setError('Invalid username or password. Try admin / password');
+      setError('Invalid credentials. Try: admin / password OR employee / password');
     }
   };
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', flexDirection: 'column' }}>
-      <h2>Employee Portal Login</h2>
-      <form onSubmit={handleLogin} style={{ display: 'flex', flexDirection: 'column', gap: '10px', width: '300px' }}>
-        <input
-          type="text"
-          placeholder="Username (admin)"
-          value={credentials.username}
-          onChange={(e) => setCredentials({ ...credentials, username: e.target.value })}
-          style={{ padding: '10px' }}
-        />
-        <input
-          type="password"
-          placeholder="Password (password)"
-          value={credentials.password}
-          onChange={(e) => setCredentials({ ...credentials, password: e.target.value })}
-          style={{ padding: '10px' }}
-        />
-        <button type="submit" style={{ padding: '10px', cursor: 'pointer' }}>Login</button>
-      </form>
-      {error && <p style={{ color: 'red' }}>{error}</p>}
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh', padding: '20px' }}>
+      <div className="card" style={{ width: '100%', maxWidth: '400px', textAlign: 'center' }}>
+        <h2 style={{ color: 'var(--primary-color)', marginBottom: '5px' }}>Nexus Portal</h2>
+        <p className="text-muted" style={{ marginBottom: '20px' }}>Sign in to your account</p>
+        
+        <form onSubmit={handleLogin}>
+          <div className="form-group">
+            <label>Username</label>
+            <input
+              type="text"
+              placeholder="admin OR employee"
+              value={credentials.username}
+              onChange={(e) => setCredentials({ ...credentials, username: e.target.value })}
+              required
+            />
+          </div>
+          
+          <div className="form-group">
+            <label>Password</label>
+            <input
+              type="password"
+              placeholder="password"
+              value={credentials.password}
+              onChange={(e) => setCredentials({ ...credentials, password: e.target.value })}
+              required
+            />
+          </div>
+
+          {error && <p style={{ color: 'var(--danger-color)', fontSize: '0.875rem', marginBottom: '15px' }}>{error}</p>}
+          
+          <button type="submit" className="btn btn-primary" style={{ marginTop: '10px' }}>
+            Sign In
+          </button>
+        </form>
+      </div>
     </div>
   );
 }
