@@ -1,0 +1,80 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Admission/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7270
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/admission/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "SwaggerKey": "admission"
+    },
+    {
+      "DownstreamPathTemplate": "/api/Attendance/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7138
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/attendance/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "SwaggerKey": "attendance"
+    },
+    {
+      "DownstreamPathTemplate": "/api/Student/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7120
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/student/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "SwaggerKey": "student"
+    }
+  ],
+
+  "SwaggerEndPoints": [
+    {
+      "Key": "admission",
+      "Config": [
+        {
+          "Name": "Student Admission API",
+          "Version": "v1",
+          "Url": "https://localhost:7270/openapi/v1.json"
+        }
+      ]
+    },
+    {
+      "Key": "attendance",
+      "Config": [
+        {
+          "Name": "Student Attendance API",
+          "Version": "v1",
+          "Url": "https://localhost:7138/openapi/v1.json"
+        }
+      ]
+    },
+    {
+      "Key": "student",
+      "Config": [
+        {
+          "Name": "Student Management API",
+          "Version": "v1",
+          "Url": "https://localhost:7120/openapi/v1.json"
+        }
+      ]
+    }
+  ],
+
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:7290"
+  }
+}

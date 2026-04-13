@@ -1,0 +1,22 @@
+[
+  {
+    "ContainingType": "StudentManagementSystem.Controllers.StudentController",
+    "Method": "GetDummy",
+    "RelativePath": "api/Student",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "StudentManagementSystem.Controllers.StudentStatus",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

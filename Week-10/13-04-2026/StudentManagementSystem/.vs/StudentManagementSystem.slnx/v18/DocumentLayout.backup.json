@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\JECRC_LakshayMangal_0177\\Week-10\\13-04-2026\\StudentManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B23C590A-4928-8C66-4B08-6622C9777249}|StudentManagementSystem\\StudentManagementSystem.csproj|e:\\jecrc_lakshaymangal_0177\\week-10\\13-04-2026\\studentmanagementsystem\\studentmanagementsystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23C590A-4928-8C66-4B08-6622C9777249}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE66B30-BD47-A7B2-B17B-5BA67959B026}|ApiGateway\\ApiGateway.csproj|e:\\jecrc_lakshaymangal_0177\\week-10\\13-04-2026\\studentmanagementsystem\\apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ABE66B30-BD47-A7B2-B17B-5BA67959B026}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23C590A-4928-8C66-4B08-6622C9777249}|StudentManagementSystem\\StudentManagementSystem.csproj|e:\\jecrc_lakshaymangal_0177\\week-10\\13-04-2026\\studentmanagementsystem\\studentmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23C590A-4928-8C66-4B08-6622C9777249}|StudentManagementSystem\\StudentManagementSystem.csproj|solutionrelative:studentmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616F60DD-9116-09CD-7F14-47FADC90AAC7}|StudentAttendanceManagement\\StudentAttendanceManagement.csproj|e:\\jecrc_lakshaymangal_0177\\week-10\\13-04-2026\\studentmanagementsystem\\studentattendancemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616F60DD-9116-09CD-7F14-47FADC90AAC7}|StudentAttendanceManagement\\StudentAttendanceManagement.csproj|solutionrelative:studentattendancemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616F60DD-9116-09CD-7F14-47FADC90AAC7}|StudentAttendanceManagement\\StudentAttendanceManagement.csproj|e:\\jecrc_lakshaymangal_0177\\week-10\\13-04-2026\\studentmanagementsystem\\studentattendancemanagement\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616F60DD-9116-09CD-7F14-47FADC90AAC7}|StudentAttendanceManagement\\StudentAttendanceManagement.csproj|solutionrelative:studentattendancemanagement\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AB5A248-C46E-F9E0-71CD-0D032ED55217}|StudentAdmissionManagement\\StudentAdmissionManagement.csproj|e:\\jecrc_lakshaymangal_0177\\week-10\\13-04-2026\\studentmanagementsystem\\studentadmissionmanagement\\controllers\\admissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AB5A248-C46E-F9E0-71CD-0D032ED55217}|StudentAdmissionManagement\\StudentAdmissionManagement.csproj|solutionrelative:studentadmissionmanagement\\controllers\\admissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE66B30-BD47-A7B2-B17B-5BA67959B026}|ApiGateway\\ApiGateway.csproj|e:\\jecrc_lakshaymangal_0177\\week-10\\13-04-2026\\studentmanagementsystem\\apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE66B30-BD47-A7B2-B17B-5BA67959B026}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AB5A248-C46E-F9E0-71CD-0D032ED55217}|StudentAdmissionManagement\\StudentAdmissionManagement.csproj|e:\\jecrc_lakshaymangal_0177\\week-10\\13-04-2026\\studentmanagementsystem\\studentadmissionmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AB5A248-C46E-F9E0-71CD-0D032ED55217}|StudentAdmissionManagement\\StudentAdmissionManagement.csproj|solutionrelative:studentadmissionmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AB5A248-C46E-F9E0-71CD-0D032ED55217}|StudentAdmissionManagement\\StudentAdmissionManagement.csproj|e:\\jecrc_lakshaymangal_0177\\week-10\\13-04-2026\\studentmanagementsystem\\studentadmissionmanagement\\models\\admission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AB5A248-C46E-F9E0-71CD-0D032ED55217}|StudentAdmissionManagement\\StudentAdmissionManagement.csproj|solutionrelative:studentadmissionmanagement\\models\\admission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{616F60DD-9116-09CD-7F14-47FADC90AAC7}|StudentAttendanceManagement\\StudentAttendanceManagement.csproj|e:\\jecrc_lakshaymangal_0177\\week-10\\13-04-2026\\studentmanagementsystem\\studentattendancemanagement\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{616F60DD-9116-09CD-7F14-47FADC90AAC7}|StudentAttendanceManagement\\StudentAttendanceManagement.csproj|solutionrelative:studentattendancemanagement\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-10\\13-04-2026\\StudentManagementSystem\\StudentManagementSystem\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "StudentManagementSystem\\Controllers\\StudentController.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-10\\13-04-2026\\StudentManagementSystem\\StudentManagementSystem\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "StudentManagementSystem\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T09:54:57.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-10\\13-04-2026\\StudentManagementSystem\\StudentManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "StudentManagementSystem\\Program.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-10\\13-04-2026\\StudentManagementSystem\\StudentManagementSystem\\Program.cs",
+              "RelativeToolTip": "StudentManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T09:41:45.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ocelot.json",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-10\\13-04-2026\\StudentManagementSystem\\ApiGateway\\ocelot.json",
+              "RelativeDocumentMoniker": "ApiGateway\\ocelot.json",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-10\\13-04-2026\\StudentManagementSystem\\ApiGateway\\ocelot.json",
+              "RelativeToolTip": "ApiGateway\\ocelot.json",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAwEMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-13T07:09:28.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-10\\13-04-2026\\StudentManagementSystem\\ApiGateway\\Program.cs",
+              "RelativeDocumentMoniker": "ApiGateway\\Program.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-10\\13-04-2026\\StudentManagementSystem\\ApiGateway\\Program.cs",
+              "RelativeToolTip": "ApiGateway\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T07:05:36.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-10\\13-04-2026\\StudentManagementSystem\\StudentAdmissionManagement\\Program.cs",
+              "RelativeDocumentMoniker": "StudentAdmissionManagement\\Program.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-10\\13-04-2026\\StudentManagementSystem\\StudentAdmissionManagement\\Program.cs",
+              "RelativeToolTip": "StudentAdmissionManagement\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T05:31:23.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-10\\13-04-2026\\StudentManagementSystem\\StudentAttendanceManagement\\Program.cs",
+              "RelativeDocumentMoniker": "StudentAttendanceManagement\\Program.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-10\\13-04-2026\\StudentManagementSystem\\StudentAttendanceManagement\\Program.cs",
+              "RelativeToolTip": "StudentAttendanceManagement\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T06:01:13.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Admission.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-10\\13-04-2026\\StudentManagementSystem\\StudentAdmissionManagement\\Models\\Admission.cs",
+              "RelativeDocumentMoniker": "StudentAdmissionManagement\\Models\\Admission.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-10\\13-04-2026\\StudentManagementSystem\\StudentAdmissionManagement\\Models\\Admission.cs",
+              "RelativeToolTip": "StudentAdmissionManagement\\Models\\Admission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T05:37:09.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AttendanceController.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-10\\13-04-2026\\StudentManagementSystem\\StudentAttendanceManagement\\Controllers\\AttendanceController.cs",
+              "RelativeDocumentMoniker": "StudentAttendanceManagement\\Controllers\\AttendanceController.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-10\\13-04-2026\\StudentManagementSystem\\StudentAttendanceManagement\\Controllers\\AttendanceController.cs",
+              "RelativeToolTip": "StudentAttendanceManagement\\Controllers\\AttendanceController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T05:51:16.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdmissionController.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-10\\13-04-2026\\StudentManagementSystem\\StudentAdmissionManagement\\Controllers\\AdmissionController.cs",
+              "RelativeDocumentMoniker": "StudentAdmissionManagement\\Controllers\\AdmissionController.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-10\\13-04-2026\\StudentManagementSystem\\StudentAdmissionManagement\\Controllers\\AdmissionController.cs",
+              "RelativeToolTip": "StudentAdmissionManagement\\Controllers\\AdmissionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T05:40:25.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-10\\13-04-2026\\StudentManagementSystem\\StudentAttendanceManagement\\Models\\Attendance.cs",
+              "RelativeDocumentMoniker": "StudentAttendanceManagement\\Models\\Attendance.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-10\\13-04-2026\\StudentManagementSystem\\StudentAttendanceManagement\\Models\\Attendance.cs",
+              "RelativeToolTip": "StudentAttendanceManagement\\Models\\Attendance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T05:48:05.201Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
