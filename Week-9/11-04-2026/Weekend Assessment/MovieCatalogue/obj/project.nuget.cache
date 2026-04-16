@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4rHjJkXO/mE=",
+  "dgSpecHash": "hrG27Tiopzo=",
   "success": true,
-  "projectFilePath": "E:\\JECRC_LakshayMangal_0177\\Week-9\\10-04-2026\\MovieCatalogue\\MovieCatalogue.csproj",
+  "projectFilePath": "E:\\JECRC_LakshayMangal_0177\\Week-9\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\MovieCatalogue.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lakshay mangal\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.5\\microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",
     "C:\\Users\\Lakshay mangal\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",

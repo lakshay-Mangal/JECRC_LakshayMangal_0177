@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\JECRC_LakshayMangal_0177\\Week-9\\10-04-2026\\MovieCatalogue\\MovieCatalogue.csproj": {}
+    "E:\\JECRC_LakshayMangal_0177\\Week-9\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\MovieCatalogue.csproj": {}
   },
   "projects": {
-    "E:\\JECRC_LakshayMangal_0177\\Week-9\\10-04-2026\\MovieCatalogue\\MovieCatalogue.csproj": {
+    "E:\\JECRC_LakshayMangal_0177\\Week-9\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\MovieCatalogue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\JECRC_LakshayMangal_0177\\Week-9\\10-04-2026\\MovieCatalogue\\MovieCatalogue.csproj",
+        "projectUniqueName": "E:\\JECRC_LakshayMangal_0177\\Week-9\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\MovieCatalogue.csproj",
         "projectName": "MovieCatalogue",
-        "projectPath": "E:\\JECRC_LakshayMangal_0177\\Week-9\\10-04-2026\\MovieCatalogue\\MovieCatalogue.csproj",
+        "projectPath": "E:\\JECRC_LakshayMangal_0177\\Week-9\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\MovieCatalogue.csproj",
         "packagesPath": "C:\\Users\\Lakshay mangal\\.nuget\\packages\\",
-        "outputPath": "E:\\JECRC_LakshayMangal_0177\\Week-9\\10-04-2026\\MovieCatalogue\\obj\\",
+        "outputPath": "E:\\JECRC_LakshayMangal_0177\\Week-9\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -30,7 +30,6 @@
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -49,7 +48,6 @@
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
