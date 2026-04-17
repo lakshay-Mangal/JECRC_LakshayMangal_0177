@@ -39,8 +39,6 @@ public class BillsController : ControllerBase
         return bill;
     }
 
-    // Add this inside your BillsController class:
-
 [HttpGet]
 public async Task<ActionResult<IEnumerable<Bill>>> GetBills()
 {
