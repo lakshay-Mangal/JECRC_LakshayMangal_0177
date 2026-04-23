@@ -1,0 +1,27 @@
+/* weather.component.css */
+input[data-test-id="app-input"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  width: 250px;
+}
+
+div[data-test-id="weather-details"], 
+div[data-test-id="no-results"] {
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  background-color: #f9f9f9;
+  font-family: sans-serif;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+div[data-test-id="output-temperature"] {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}

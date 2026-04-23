@@ -1,0 +1,20 @@
+<input 
+  type="text" 
+  data-test-id="app-input" 
+  (input)="onSearch($event)" 
+  placeholder="Enter city name..." 
+/>
+
+<ng-container *ngIf="searchInput.trim() !== ''">
+  
+  <div *ngIf="currentWeather" data-test-id="weather-details">
+    <div data-test-id="output-temperature">{{ currentWeather.temperature }}</div>
+    <div data-test-id="output-wind">Wind: {{ currentWeather.wind }}</div>
+    <div data-test-id="output-humidity">Humidity: {{ currentWeather.humidity }}</div>
+  </div>
+
+  <div *ngIf="!currentWeather" data-test-id="no-results">
+    No Results Found
+  </div>
+
+</ng-container>
