@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ProductManagement",
+    "\\ProductManagement\\ProductManagement"
   ],
+  "SelectedNode": "\\ProductManagement",
   "PreviewInSolutionExplorer": false
 }

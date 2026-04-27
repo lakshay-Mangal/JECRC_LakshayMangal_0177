@@ -1,10 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\JECRC_LakshayMangal_0177\\Week-10\\27-04-2026\\ProductManagement\\",
+  "WorkspaceRootPath": "E:\\JECRC_LakshayMangal_0177\\Week-11\\27-04-2026\\ProductManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F2BBFBD-08EA-4D7A-9C2D-8EDD387667A7}|ProductManagement\\ProductManagement.csproj|e:\\jecrc_lakshaymangal_0177\\week-10\\27-04-2026\\productmanagement\\productmanagement\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F2BBFBD-08EA-4D7A-9C2D-8EDD387667A7}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|e:\\jecrc_lakshaymangal_0177\\week-11\\27-04-2026\\productmanagement\\productmanagement\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|e:\\jecrc_lakshaymangal_0177\\week-11\\27-04-2026\\productmanagement\\productmanagement\\models\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\models\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|e:\\jecrc_lakshaymangal_0177\\week-11\\27-04-2026\\productmanagement\\productmanagement\\dtos\\productrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\dtos\\productrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|e:\\jecrc_lakshaymangal_0177\\week-11\\27-04-2026\\productmanagement\\productmanagement\\dtos\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\dtos\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|e:\\jecrc_lakshaymangal_0177\\week-11\\27-04-2026\\productmanagement\\productmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|e:\\jecrc_lakshaymangal_0177\\week-11\\27-04-2026\\productmanagement\\productmanagement\\models\\productdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\models\\productdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|e:\\jecrc_lakshaymangal_0177\\week-11\\27-04-2026\\productmanagement\\productmanagement\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|e:\\jecrc_lakshaymangal_0177\\week-11\\27-04-2026\\productmanagement\\productmanagement\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|e:\\jecrc_lakshaymangal_0177\\week-11\\27-04-2026\\productmanagement\\productmanagement\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,12 +51,116 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-11\\27-04-2026\\ProductManagement\\ProductManagement\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ProductManagement\\Data\\AppDbContext.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-11\\27-04-2026\\ProductManagement\\ProductManagement\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ProductManagement\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T07:01:51.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductRequestDto.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-11\\27-04-2026\\ProductManagement\\ProductManagement\\DTOs\\ProductRequestDto.cs",
+              "RelativeDocumentMoniker": "ProductManagement\\DTOs\\ProductRequestDto.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-11\\27-04-2026\\ProductManagement\\ProductManagement\\DTOs\\ProductRequestDto.cs",
+              "RelativeToolTip": "ProductManagement\\DTOs\\ProductRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:59:25.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductResponseDto.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-11\\27-04-2026\\ProductManagement\\ProductManagement\\DTOs\\ProductResponseDto.cs",
+              "RelativeDocumentMoniker": "ProductManagement\\DTOs\\ProductResponseDto.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-11\\27-04-2026\\ProductManagement\\ProductManagement\\DTOs\\ProductResponseDto.cs",
+              "RelativeToolTip": "ProductManagement\\DTOs\\ProductResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:57:01.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-11\\27-04-2026\\ProductManagement\\ProductManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "ProductManagement\\appsettings.json",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-11\\27-04-2026\\ProductManagement\\ProductManagement\\appsettings.json",
+              "RelativeToolTip": "ProductManagement\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-27T06:51:37.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductTag.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-11\\27-04-2026\\ProductManagement\\ProductManagement\\Models\\ProductTag.cs",
+              "RelativeDocumentMoniker": "ProductManagement\\Models\\ProductTag.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-11\\27-04-2026\\ProductManagement\\ProductManagement\\Models\\ProductTag.cs",
+              "RelativeToolTip": "ProductManagement\\Models\\ProductTag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:38:15.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-11\\27-04-2026\\ProductManagement\\ProductManagement\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "ProductManagement\\Models\\Tag.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-11\\27-04-2026\\ProductManagement\\ProductManagement\\Models\\Tag.cs",
+              "RelativeToolTip": "ProductManagement\\Models\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:38:01.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductDetail.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-11\\27-04-2026\\ProductManagement\\ProductManagement\\Models\\ProductDetail.cs",
+              "RelativeDocumentMoniker": "ProductManagement\\Models\\ProductDetail.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-11\\27-04-2026\\ProductManagement\\ProductManagement\\Models\\ProductDetail.cs",
+              "RelativeToolTip": "ProductManagement\\Models\\ProductDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T05:59:18.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-11\\27-04-2026\\ProductManagement\\ProductManagement\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ProductManagement\\Models\\Category.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-11\\27-04-2026\\ProductManagement\\ProductManagement\\Models\\Category.cs",
+              "RelativeToolTip": "ProductManagement\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T05:53:46.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Product.cs",
-              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-10\\27-04-2026\\ProductManagement\\ProductManagement\\Models\\Product.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-11\\27-04-2026\\ProductManagement\\ProductManagement\\Models\\Product.cs",
               "RelativeDocumentMoniker": "ProductManagement\\Models\\Product.cs",
-              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-10\\27-04-2026\\ProductManagement\\ProductManagement\\Models\\Product.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-11\\27-04-2026\\ProductManagement\\ProductManagement\\Models\\Product.cs",
               "RelativeToolTip": "ProductManagement\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAwAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-27T05:47:05.771Z",
               "EditorCaption": ""

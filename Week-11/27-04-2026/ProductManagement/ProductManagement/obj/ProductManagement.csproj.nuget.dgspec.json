@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\JECRC_LakshayMangal_0177\\Week-10\\27-04-2026\\ProductManagement\\ProductManagement\\ProductManagement.csproj": {}
+    "E:\\JECRC_LakshayMangal_0177\\Week-11\\27-04-2026\\ProductManagement\\ProductManagement\\ProductManagement.csproj": {}
   },
   "projects": {
-    "E:\\JECRC_LakshayMangal_0177\\Week-10\\27-04-2026\\ProductManagement\\ProductManagement\\ProductManagement.csproj": {
+    "E:\\JECRC_LakshayMangal_0177\\Week-11\\27-04-2026\\ProductManagement\\ProductManagement\\ProductManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\JECRC_LakshayMangal_0177\\Week-10\\27-04-2026\\ProductManagement\\ProductManagement\\ProductManagement.csproj",
+        "projectUniqueName": "E:\\JECRC_LakshayMangal_0177\\Week-11\\27-04-2026\\ProductManagement\\ProductManagement\\ProductManagement.csproj",
         "projectName": "ProductManagement",
-        "projectPath": "E:\\JECRC_LakshayMangal_0177\\Week-10\\27-04-2026\\ProductManagement\\ProductManagement\\ProductManagement.csproj",
+        "projectPath": "E:\\JECRC_LakshayMangal_0177\\Week-11\\27-04-2026\\ProductManagement\\ProductManagement\\ProductManagement.csproj",
         "packagesPath": "C:\\Users\\Lakshay mangal\\.nuget\\packages\\",
-        "outputPath": "E:\\JECRC_LakshayMangal_0177\\Week-10\\27-04-2026\\ProductManagement\\ProductManagement\\obj\\",
+        "outputPath": "E:\\JECRC_LakshayMangal_0177\\Week-11\\27-04-2026\\ProductManagement\\ProductManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,6 +51,22 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[10.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.7, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[10.1.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
