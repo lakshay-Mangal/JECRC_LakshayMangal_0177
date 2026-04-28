@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "F0GjulBsk7Y=",
+  "dgSpecHash": "kX+2blzG3RA=",
   "success": true,
   "projectFilePath": "E:\\JECRC_LakshayMangal_0177\\Week-11\\27-04-2026\\ProductManagement\\ProductManagement\\ProductManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lakshay mangal\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\Lakshay mangal\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
     "C:\\Users\\Lakshay mangal\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Lakshay mangal\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\10.0.7\\microsoft.aspnetcore.identity.entityframeworkcore.10.0.7.nupkg.sha512",
+    "C:\\Users\\Lakshay mangal\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\10.0.7\\microsoft.aspnetcore.identity.ui.10.0.7.nupkg.sha512",
     "C:\\Users\\Lakshay mangal\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
     "C:\\Users\\Lakshay mangal\\.nuget\\packages\\microsoft.bcl.cryptography\\9.0.4\\microsoft.bcl.cryptography.9.0.4.nupkg.sha512",
     "C:\\Users\\Lakshay mangal\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
@@ -24,6 +26,7 @@
     "C:\\Users\\Lakshay mangal\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\10.0.7\\microsoft.entityframeworkcore.sqlserver.10.0.7.nupkg.sha512",
     "C:\\Users\\Lakshay mangal\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\10.0.7\\microsoft.entityframeworkcore.tools.10.0.7.nupkg.sha512",
     "C:\\Users\\Lakshay mangal\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0\\microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
+    "C:\\Users\\Lakshay mangal\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\10.0.7\\microsoft.extensions.fileproviders.embedded.10.0.7.nupkg.sha512",
     "C:\\Users\\Lakshay mangal\\.nuget\\packages\\microsoft.identity.client\\4.73.1\\microsoft.identity.client.4.73.1.nupkg.sha512",
     "C:\\Users\\Lakshay mangal\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\4.73.1\\microsoft.identity.client.extensions.msal.4.73.1.nupkg.sha512",
     "C:\\Users\\Lakshay mangal\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.7.1\\microsoft.identitymodel.abstractions.7.7.1.nupkg.sha512",
