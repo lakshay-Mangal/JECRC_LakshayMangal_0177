@@ -1,0 +1,31 @@
+# 1. Base stage: Uses the lightweight ASP.NET runtime to run the app
+FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS base
+USER $APP_UID
+WORKDIR /app
+EXPOSE 8080
+EXPOSE 8081
+
+# 2. Build stage: Uses the heavier SDK to compile the code
+FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
+ARG BUILD_CONFIGURATION=Release
+WORKDIR /src
+
+# Copy just the project file first and restore dependencies (caches this layer)
+COPY ["EMS.InMemoryAPI.csproj", "."]
+RUN dotnet restore "./EMS.InMemoryAPI.csproj"
+
+# Copy the rest of the code and build
+COPY . .
+WORKDIR "/src/."
+RUN dotnet build "./EMS.InMemoryAPI.csproj" -c $BUILD_CONFIGURATION -o /app/build
+
+# 3. Publish stage: Optimizes the build for deployment
+FROM build AS publish
+ARG BUILD_CONFIGURATION=Release
+RUN dotnet publish "./EMS.InMemoryAPI.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+
+# 4. Final stage: Copies the published output into the base runtime image
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "EMS.InMemoryAPI.dll"]
