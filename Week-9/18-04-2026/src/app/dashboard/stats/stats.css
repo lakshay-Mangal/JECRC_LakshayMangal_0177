@@ -1,0 +1,82 @@
+.stats-card {
+  background: #fafffe;
+  border: 2px solid #6ee7b7;
+  border-radius: 12px;
+  padding: 22px;
+  margin-top: 26px;
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.default-badge {
+  background: #dbeafe;
+  color: #1d4ed8;
+  border: 1px solid #93c5fd;
+}
+
+h3 {
+  font-size: 17px;
+  color: #064e3b;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.why {
+  font-size: 13.5px;
+  color: #374151;
+  background: #ecfdf5;
+  border-left: 3px solid #10b981;
+  padding: 10px 14px;
+  border-radius: 0 6px 6px 0;
+  margin-bottom: 18px;
+  line-height: 1.65;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.cell {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.highlight-cell {
+  background: #f0fdf4;
+  border-color: #86efac;
+}
+
+.cell-label {
+  font-size: 11px;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  font-weight: 600;
+}
+
+.cell-value {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.big-score {
+  font-size: 30px;
+  color: #059669;
+}

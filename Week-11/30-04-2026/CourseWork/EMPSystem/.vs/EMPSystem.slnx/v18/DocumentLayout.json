@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\JECRC_LakshayMangal_0177\\Week-11\\30-04-2026\\CourseWork\\EMPSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F00B8-FC7C-4B6A-8148-527B875A1C21}|EMPSystem\\EMPSystem.csproj|e:\\jecrc_lakshaymangal_0177\\week-11\\30-04-2026\\coursework\\empsystem\\empsystem\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4C5F00B8-FC7C-4B6A-8148-527B875A1C21}|EMPSystem\\EMPSystem.csproj|solutionrelative:empsystem\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F00B8-FC7C-4B6A-8148-527B875A1C21}|EMPSystem\\EMPSystem.csproj|e:\\jecrc_lakshaymangal_0177\\week-11\\30-04-2026\\coursework\\empsystem\\empsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4C5F00B8-FC7C-4B6A-8148-527B875A1C21}|EMPSystem\\EMPSystem.csproj|solutionrelative:empsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F00B8-FC7C-4B6A-8148-527B875A1C21}|EMPSystem\\EMPSystem.csproj|e:\\jecrc_lakshaymangal_0177\\week-11\\30-04-2026\\coursework\\empsystem\\empsystem\\models\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5F00B8-FC7C-4B6A-8148-527B875A1C21}|EMPSystem\\EMPSystem.csproj|solutionrelative:empsystem\\models\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F00B8-FC7C-4B6A-8148-527B875A1C21}|EMPSystem\\EMPSystem.csproj|e:\\jecrc_lakshaymangal_0177\\week-11\\30-04-2026\\coursework\\empsystem\\empsystem\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5F00B8-FC7C-4B6A-8148-527B875A1C21}|EMPSystem\\EMPSystem.csproj|solutionrelative:empsystem\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C5F00B8-FC7C-4B6A-8148-527B875A1C21}|EMPSystem\\EMPSystem.csproj|e:\\jecrc_lakshaymangal_0177\\week-11\\30-04-2026\\coursework\\empsystem\\empsystem\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C5F00B8-FC7C-4B6A-8148-527B875A1C21}|EMPSystem\\EMPSystem.csproj|solutionrelative:empsystem\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-11\\30-04-2026\\CourseWork\\EMPSystem\\EMPSystem\\Dockerfile",
+              "RelativeDocumentMoniker": "EMPSystem\\Dockerfile",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-11\\30-04-2026\\CourseWork\\EMPSystem\\EMPSystem\\Dockerfile",
+              "RelativeToolTip": "EMPSystem\\Dockerfile",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABkAAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-01T09:57:38.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employees.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-11\\30-04-2026\\CourseWork\\EMPSystem\\EMPSystem\\Models\\Employees.cs",
+              "RelativeDocumentMoniker": "EMPSystem\\Models\\Employees.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-11\\30-04-2026\\CourseWork\\EMPSystem\\EMPSystem\\Models\\Employees.cs",
+              "RelativeToolTip": "EMPSystem\\Models\\Employees.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T09:01:29.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-11\\30-04-2026\\CourseWork\\EMPSystem\\EMPSystem\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "EMPSystem\\Data\\AppDbContext.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-11\\30-04-2026\\CourseWork\\EMPSystem\\EMPSystem\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "EMPSystem\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T06:47:26.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-11\\30-04-2026\\CourseWork\\EMPSystem\\EMPSystem\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "EMPSystem\\Controllers\\EmployeeController.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-11\\30-04-2026\\CourseWork\\EMPSystem\\EMPSystem\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "EMPSystem\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T07:04:11.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-11\\30-04-2026\\CourseWork\\EMPSystem\\EMPSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "EMPSystem\\appsettings.json",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-11\\30-04-2026\\CourseWork\\EMPSystem\\EMPSystem\\appsettings.json",
+              "RelativeToolTip": "EMPSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-01T06:48:42.679Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

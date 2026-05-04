@@ -21,6 +21,10 @@ namespace ProductManagement.Data
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Product>()
+                .Property(p => p.Price)
+                .HasPrecision(18, 2);
+
+            modelBuilder.Entity<Product>()
                 .HasOne(p => p.ProductDetail)
                 .WithOne(d => d.Product)
                 .HasForeignKey<ProductDetail>(d => d.ProductId);

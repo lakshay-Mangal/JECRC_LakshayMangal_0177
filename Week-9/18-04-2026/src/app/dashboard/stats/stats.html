@@ -1,0 +1,29 @@
+<div class="stats-card">
+  <div class="badge default-badge">Default Strategy</div>
+  <h3>StatsComponent</h3>
+  <p class="why">
+    This child component uses <strong>Default strategy</strong> — it checks
+    every cycle, so it always shows the latest score even after a plain mutation.
+    This is why the score here updates but the Dashboard score above does not,
+    when you click the broken button.
+  </p>
+
+  <div class="grid">
+    <div class="cell">
+      <span class="cell-label">Player</span>
+      <span class="cell-value">{{ userStats.name }}</span>
+    </div>
+    <div class="cell highlight-cell">
+      <span class="cell-label">Score (always current)</span>
+      <span class="cell-value big-score">{{ userStats.score }}</span>
+    </div>
+    <div class="cell">
+      <span class="cell-label">Level</span>
+      <span class="cell-value">{{ userStats.level }}</span>
+    </div>
+    <div class="cell">
+      <span class="cell-label">Tier</span>
+      <span class="cell-value">{{ tier }}</span>
+    </div>
+  </div>
+</div>

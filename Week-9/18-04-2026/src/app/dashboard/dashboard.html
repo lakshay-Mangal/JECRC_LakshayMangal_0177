@@ -1,0 +1,69 @@
+<div class="dashboard-card">
+  <div class="badge onpush">OnPush Strategy</div>
+  <h2>DashboardComponent</h2>
+
+  <div class="score-box">
+    <span class="score-label">Score shown in Dashboard:</span>
+    <span class="score-number">{{ userStats.score }}</span>
+  </div>
+
+  <div class="note-box">
+    Watch the score above vs the score inside StatsComponent below.
+    After clicking the broken button, they will show different values.
+  </div>
+
+  <div class="section broken-section">
+    <div class="section-title">
+      <span class="icon-x">X</span>
+      Broken — Mutation (updateByMutation)
+    </div>
+    <p class="desc">
+      Calls <code>this.userStats.score += 10</code> which mutates the existing
+      object. The reference stays the same so OnPush skips re-rendering this
+      component. StatsComponent below still updates because it uses Default strategy.
+    </p>
+    <button class="btn btn-red" (click)="updateByMutation()">
+      Mutate score +10 (Dashboard will NOT update)
+    </button>
+    <div class="log-list">
+      <div class="log-item log-red" *ngFor="let entry of mutateLog">{{ entry }}</div>
+    </div>
+  </div>
+
+  <div class="section fix-section">
+    <div class="section-title">
+      <span class="icon-check">✓</span>
+      Fix 1 — Immutable copy using spread operator
+    </div>
+    <p class="desc">
+      Calls <code>this.userStats = &#123; ...this.userStats, score: newVal &#125;</code>
+      which creates a brand new object. The reference changes so OnPush detects
+      it and re-renders.
+    </p>
+    <button class="btn btn-green" (click)="updateByImmutableCopy()">
+      Immutable update +10 (Dashboard WILL update)
+    </button>
+    <div class="log-list">
+      <div class="log-item log-green" *ngFor="let entry of immutableLog">{{ entry }}</div>
+    </div>
+  </div>
+
+  <div class="section cdr-section">
+    <div class="section-title">
+      <span class="icon-check">✓</span>
+      Fix 2 — ChangeDetectorRef.markForCheck()
+    </div>
+    <p class="desc">
+      Mutates the object but then calls <code>this.cdr.markForCheck()</code>
+      to manually schedule a re-check for this component on the next cycle.
+    </p>
+    <button class="btn btn-blue" (click)="updateWithMarkForCheck()">
+      markForCheck +10 (Dashboard WILL update)
+    </button>
+    <div class="log-list">
+      <div class="log-item log-blue" *ngFor="let entry of cdrLog">{{ entry }}</div>
+    </div>
+  </div>
+
+  <app-stats [userStats]="userStats" />
+</div>
