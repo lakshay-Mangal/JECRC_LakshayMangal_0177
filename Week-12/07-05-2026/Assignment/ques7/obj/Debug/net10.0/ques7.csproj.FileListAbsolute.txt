@@ -1,0 +1,15 @@
+E:\JECRC_LakshayMangal_0177\Week-12\07-05-2026\Assignment\ques7\bin\Debug\net10.0\ques7.exe
+E:\JECRC_LakshayMangal_0177\Week-12\07-05-2026\Assignment\ques7\bin\Debug\net10.0\ques7.deps.json
+E:\JECRC_LakshayMangal_0177\Week-12\07-05-2026\Assignment\ques7\bin\Debug\net10.0\ques7.runtimeconfig.json
+E:\JECRC_LakshayMangal_0177\Week-12\07-05-2026\Assignment\ques7\bin\Debug\net10.0\ques7.dll
+E:\JECRC_LakshayMangal_0177\Week-12\07-05-2026\Assignment\ques7\bin\Debug\net10.0\ques7.pdb
+E:\JECRC_LakshayMangal_0177\Week-12\07-05-2026\Assignment\ques7\obj\Debug\net10.0\ques7.GeneratedMSBuildEditorConfig.editorconfig
+E:\JECRC_LakshayMangal_0177\Week-12\07-05-2026\Assignment\ques7\obj\Debug\net10.0\ques7.AssemblyInfoInputs.cache
+E:\JECRC_LakshayMangal_0177\Week-12\07-05-2026\Assignment\ques7\obj\Debug\net10.0\ques7.AssemblyInfo.cs
+E:\JECRC_LakshayMangal_0177\Week-12\07-05-2026\Assignment\ques7\obj\Debug\net10.0\ques7.csproj.CoreCompileInputs.cache
+E:\JECRC_LakshayMangal_0177\Week-12\07-05-2026\Assignment\ques7\obj\Debug\net10.0\ques7.sourcelink.json
+E:\JECRC_LakshayMangal_0177\Week-12\07-05-2026\Assignment\ques7\obj\Debug\net10.0\ques7.dll
+E:\JECRC_LakshayMangal_0177\Week-12\07-05-2026\Assignment\ques7\obj\Debug\net10.0\refint\ques7.dll
+E:\JECRC_LakshayMangal_0177\Week-12\07-05-2026\Assignment\ques7\obj\Debug\net10.0\ques7.pdb
+E:\JECRC_LakshayMangal_0177\Week-12\07-05-2026\Assignment\ques7\obj\Debug\net10.0\ques7.genruntimeconfig.cache
+E:\JECRC_LakshayMangal_0177\Week-12\07-05-2026\Assignment\ques7\obj\Debug\net10.0\ref\ques7.dll
