@@ -1,42 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\JECRC_LakshayMangal_0177\\Week-9\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\",
+  "WorkspaceRootPath": "E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4B12D5BF-460B-695E-C776-86AA91BEED0D}|MovieCatalogue.csproj|e:\\jecrc_lakshaymangal_0177\\week-9\\11-04-2026\\weekend assessment\\moviecatalogue\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B12D5BF-460B-695E-C776-86AA91BEED0D}|MovieCatalogue.csproj|solutionrelative:controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Controllers\\MoviesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\MoviesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B12D5BF-460B-695E-C776-86AA91BEED0D}|MovieCatalogue.csproj|e:\\jecrc_lakshaymangal_0177\\week-9\\11-04-2026\\weekend assessment\\moviecatalogue\\models\\attributes\\movielengthattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B12D5BF-460B-695E-C776-86AA91BEED0D}|MovieCatalogue.csproj|solutionrelative:models\\attributes\\movielengthattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\Attributes\\MovieLengthAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Attributes\\MovieLengthAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B12D5BF-460B-695E-C776-86AA91BEED0D}|MovieCatalogue.csproj|e:\\jecrc_lakshaymangal_0177\\week-9\\11-04-2026\\weekend assessment\\moviecatalogue\\models\\dtos\\createmoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B12D5BF-460B-695E-C776-86AA91BEED0D}|MovieCatalogue.csproj|solutionrelative:models\\dtos\\createmoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\Attributes\\NameConfigAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Attributes\\NameConfigAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B12D5BF-460B-695E-C776-86AA91BEED0D}|MovieCatalogue.csproj|e:\\jecrc_lakshaymangal_0177\\week-9\\11-04-2026\\weekend assessment\\moviecatalogue\\models\\attributes\\nameconfigattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B12D5BF-460B-695E-C776-86AA91BEED0D}|MovieCatalogue.csproj|solutionrelative:models\\attributes\\nameconfigattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\DTOs\\UpdateMovieDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\DTOs\\UpdateMovieDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B12D5BF-460B-695E-C776-86AA91BEED0D}|MovieCatalogue.csproj|e:\\jecrc_lakshaymangal_0177\\week-9\\11-04-2026\\weekend assessment\\moviecatalogue\\models\\entities\\movies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B12D5BF-460B-695E-C776-86AA91BEED0D}|MovieCatalogue.csproj|solutionrelative:models\\entities\\movies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\DTOs\\DisplayMoviesDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\DTOs\\DisplayMoviesDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B12D5BF-460B-695E-C776-86AA91BEED0D}|MovieCatalogue.csproj|e:\\jecrc_lakshaymangal_0177\\week-9\\11-04-2026\\weekend assessment\\moviecatalogue\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4B12D5BF-460B-695E-C776-86AA91BEED0D}|MovieCatalogue.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\DTOs\\CreateMovieDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\DTOs\\CreateMovieDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B12D5BF-460B-695E-C776-86AA91BEED0D}|MovieCatalogue.csproj|e:\\jecrc_lakshaymangal_0177\\week-9\\11-04-2026\\weekend assessment\\moviecatalogue\\models\\dtos\\updatemoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B12D5BF-460B-695E-C776-86AA91BEED0D}|MovieCatalogue.csproj|solutionrelative:models\\dtos\\updatemoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\Entities\\Movies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Entities\\Movies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B12D5BF-460B-695E-C776-86AA91BEED0D}|MovieCatalogue.csproj|e:\\jecrc_lakshaymangal_0177\\week-9\\11-04-2026\\weekend assessment\\moviecatalogue\\models\\dtos\\displaymoviesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B12D5BF-460B-695E-C776-86AA91BEED0D}|MovieCatalogue.csproj|solutionrelative:models\\dtos\\displaymoviesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B12D5BF-460B-695E-C776-86AA91BEED0D}|MovieCatalogue.csproj|e:\\jecrc_lakshaymangal_0177\\week-9\\11-04-2026\\weekend assessment\\moviecatalogue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B12D5BF-460B-695E-C776-86AA91BEED0D}|MovieCatalogue.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,9 +52,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MovieLengthAttribute.cs",
-              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-9\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\Attributes\\MovieLengthAttribute.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\Attributes\\MovieLengthAttribute.cs",
               "RelativeDocumentMoniker": "Models\\Attributes\\MovieLengthAttribute.cs",
-              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-9\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\Attributes\\MovieLengthAttribute.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\Attributes\\MovieLengthAttribute.cs",
               "RelativeToolTip": "Models\\Attributes\\MovieLengthAttribute.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -62,11 +62,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "NameConfigAttribute.cs",
-              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-9\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\Attributes\\NameConfigAttribute.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\Attributes\\NameConfigAttribute.cs",
               "RelativeDocumentMoniker": "Models\\Attributes\\NameConfigAttribute.cs",
-              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-9\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\Attributes\\NameConfigAttribute.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\Attributes\\NameConfigAttribute.cs",
               "RelativeToolTip": "Models\\Attributes\\NameConfigAttribute.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -74,11 +74,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "UpdateMovieDto.cs",
-              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-9\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\DTOs\\UpdateMovieDto.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\DTOs\\UpdateMovieDto.cs",
               "RelativeDocumentMoniker": "Models\\DTOs\\UpdateMovieDto.cs",
-              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-9\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\DTOs\\UpdateMovieDto.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\DTOs\\UpdateMovieDto.cs",
               "RelativeToolTip": "Models\\DTOs\\UpdateMovieDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -88,22 +88,22 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MoviesController.cs",
-              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-9\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Controllers\\MoviesController.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Controllers\\MoviesController.cs",
               "RelativeDocumentMoniker": "Controllers\\MoviesController.cs",
-              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-9\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Controllers\\MoviesController.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Controllers\\MoviesController.cs",
               "RelativeToolTip": "Controllers\\MoviesController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAgwFAAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-10T08:57:33.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "DisplayMoviesDto.cs",
-              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-9\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\DTOs\\DisplayMoviesDto.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\DTOs\\DisplayMoviesDto.cs",
               "RelativeDocumentMoniker": "Models\\DTOs\\DisplayMoviesDto.cs",
-              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-9\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\DTOs\\DisplayMoviesDto.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\DTOs\\DisplayMoviesDto.cs",
               "RelativeToolTip": "Models\\DTOs\\DisplayMoviesDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -111,11 +111,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "CreateMovieDto.cs",
-              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-9\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\DTOs\\CreateMovieDto.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\DTOs\\CreateMovieDto.cs",
               "RelativeDocumentMoniker": "Models\\DTOs\\CreateMovieDto.cs",
-              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-9\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\DTOs\\CreateMovieDto.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\DTOs\\CreateMovieDto.cs",
               "RelativeToolTip": "Models\\DTOs\\CreateMovieDto.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwA0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -123,11 +123,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Movies.cs",
-              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-9\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\Entities\\Movies.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\Entities\\Movies.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\Movies.cs",
-              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-9\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\Entities\\Movies.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Models\\Entities\\Movies.cs",
               "RelativeToolTip": "Models\\Entities\\Movies.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -135,11 +135,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-9\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Properties\\launchSettings.json",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-9\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -149,17 +149,13 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-9\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Program.cs",
+              "DocumentMoniker": "E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-9\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Program.cs",
+              "ToolTip": "E:\\JECRC_LakshayMangal_0177\\Week-8\\11-04-2026\\Weekend Assessment\\MovieCatalogue\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-10T08:50:29.801Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

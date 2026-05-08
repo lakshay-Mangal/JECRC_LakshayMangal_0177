@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\JECRC_LakshayMangal_0177\\Week-12\\09-05-2026\\Assignment1\\Assignment1.csproj",
+      "projectUniqueName": "E:\\JECRC_LakshayMangal_0177\\Week-12\\08-05-2026\\Assignment1\\Assignment1.csproj",
       "projectName": "Assignment1",
-      "projectPath": "E:\\JECRC_LakshayMangal_0177\\Week-12\\09-05-2026\\Assignment1\\Assignment1.csproj",
+      "projectPath": "E:\\JECRC_LakshayMangal_0177\\Week-12\\08-05-2026\\Assignment1\\Assignment1.csproj",
       "packagesPath": "C:\\Users\\Lakshay mangal\\.nuget\\packages\\",
-      "outputPath": "E:\\JECRC_LakshayMangal_0177\\Week-12\\09-05-2026\\Assignment1\\obj\\",
+      "outputPath": "E:\\JECRC_LakshayMangal_0177\\Week-12\\08-05-2026\\Assignment1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
